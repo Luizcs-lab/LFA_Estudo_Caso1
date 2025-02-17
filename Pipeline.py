@@ -15,9 +15,23 @@ import scikit
 #Desenvolvimento das etapas do pipeline:
 # 1-Etapa-> Ler arquivo de Log usando da biblioteca do pandas e suas funcionalidades 
 def Ler_Arquivo_Log(arquivolog):
-       with open(arquivolog) as a:
-        for linha in a:
-            linha.strip()
+
+Logs = [ ]
+for arquivo in os.listdir(arquivolog):
+if arquivo.endswith(".log")):
+       with open(os.path.join(arquivolog, arquivo, "r")) as a:
+        logs.extends(a.readlines())
+         return logs
+
+else if arquivo.endswith(".svg")):
+       with open(os.path.join(arquivolog, arquivo, "r")) as a:
+        logs.extends(a.readlines())
+         return logs
+
+else if arquivo.endswith(".txt")):
+       with open(os.path.join(arquivolog, arquivo, "r")) as a:
+        logs.extends(a.readlines())
+         return logs
 
 # 2-Etapa-> Usar Tokenização de texto para dividir o conteúdo e usar em conjunto o sciki-learn (machine learning) para classificar os dados
 def Extracao():
