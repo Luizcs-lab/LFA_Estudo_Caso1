@@ -10,24 +10,24 @@
 import re
 import pandas as pd
 import pyautogui
-import scikit-learn
+import scikit
 
 #Desenvolvimento das etapas do pipeline:
 # 1-Etapa-> Ler arquivo de Log usando da biblioteca do pandas e suas funcionalidades 
-    def Ler_Arquivo_Log(arquivolog):
+def Ler_Arquivo_Log(arquivolog):
        with open(arquivolog) as a:
         for linha in a:
             linha.strip()
 
 # 2-Etapa-> Usar Tokenização de texto para dividir o conteúdo e usar em conjunto o sciki-learn (machine learning) para classificar os dados
-    def Extracao():
+def Extracao():
     
 
 # 3-Etapa-> Transformar ou formatar os dados relevantes de forma automatizada
-    def Tratamento():
+def Tratamento():
 
-# 4-Etapa-> A saída dos dados para um novo arquivo(dados que foram tratados)
-    def Conversao():
+# 4-Etapa-> A saída dos dados para um novo arquivo(dados que foram tratados
+def Conversao():
 
 # Execução das etapas:
 
