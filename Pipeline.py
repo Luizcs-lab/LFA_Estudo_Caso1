@@ -27,7 +27,35 @@ def prosseguir():
         if nomearquivo.endswith == extensoes:
             with open(nomearquivo, "r") as arquivo:
                 print(arquivo.read())
-        
+
+#função que usa pandas para filtrar dados
+def         import pandas as pd
+
+def filtrar_dados(nomearquivo):
+    try:
+        # Verificar a extensão do arquivo
+        if nomearquivo.endswith('.csv'):
+            dados = pd.read_csv(nomearquivo)  # Carregar arquivo CSV
+        elif nomearquivo.endswith('.log') or nomearquivo.endswith('.txt'):
+            dados = pd.read_csv(nomearquivo, sep='\n', header=None)  # Carregar arquivo .log ou .txt
+        else:
+            print("Tipo de arquivo não suportado.")
+            return
+
+        # Filtrando dados que contêm a palavra 'erro' (ajuste a palavra se precisar)
+        dados_filtrados = dados[dados[0].str.contains('erro', case=False, na=False)]  # 'erro' é o padrão que estamos procurando
+
+        # Exibindo os dados filtrados
+        print("Dados filtrados:")
+        print(dados_filtrados)
+
+        # Salvar os dados filtrados em um novo arquivo CSV
+        dados_filtrados.to_csv('dados_filtrados.csv', index=False)
+        print("Dados filtrados salvos em 'dados_filtrados.csv'")
+
+    except Exception as e:
+        print(f"Erro ao processar o arquivo: {e}")
+ 
                 
 #--------------------------------------------------------------------      
 # definição da janela
