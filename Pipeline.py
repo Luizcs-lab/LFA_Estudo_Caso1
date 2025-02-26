@@ -15,6 +15,7 @@ import customtkinter as ctk
 from tkinter import Tk
 from tkinter.filedialog import askopenfile
 from tkinter.filedialog import FileDialog
+from tkinter import filedialog
 # criando a interface do programa e sua cor de fundo
 ctk.set_appearance_mode('ligth')
 # função para abrir o explorador de arquivos para o usuário selecionar
@@ -23,10 +24,13 @@ ctk.set_appearance_mode('ligth')
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
     Tk().withdraw()
-    nomearquivo = askopenfile()    
-    with open(nomearquivo, "r") as arquivo:
+    nomearquivo = filedialog.askopenfilename(title="Selecione um arquivo",filetypes=[("*.log; *.txt ")])  
+    return   
+    with open(nomearquivo, "r", encoding="utf-8") as arquivo:
         conteudo = arquivo.read()
-        print(conteudo)
+        
+        texto.delete("1.0",ctk.END)
+        texto.insert(ctk.END,conteudo)
 
 # função que usa pandas para filtrar dados
 
@@ -72,7 +76,7 @@ Label = ctk.CTkLabel(
     app, text="Bem vindo(a) a aplicação de leitura de arquivos pipeline")
 Label.pack(pady=15)
 # Campo de texto
-texto = ctk.CTkTextbox(app, height=12)
+texto = ctk.CTkTextbox(app, height=12, width=18)
 texto.pack(pady=10)
 
 
