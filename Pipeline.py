@@ -14,22 +14,22 @@ import pandas as pd
 import customtkinter as ctk
 from tkinter import Tk
 from tkinter.filedialog import askopenfile
-from tkinter.filedialog import FileDialog 
-#criando a interface do programa e sua cor de fundo
+from tkinter.filedialog import FileDialog
+# criando a interface do programa e sua cor de fundo
 ctk.set_appearance_mode('ligth')
-#função para abrir o explorador de arquivos para o usuário selecionar
+# função para abrir o explorador de arquivos para o usuário selecionar
+
+
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
-        Tk().withdraw()
-        nomearquivo = askopenfile()
-        print(nomearquivo)
-        extensoes = (".log",".txt",".csv")
-        if nomearquivo.endswith == extensoes:
-            with open(nomearquivo, "r") as arquivo:
-                print(arquivo.read())
+    Tk().withdraw()
+    nomearquivo = askopenfile()    
+    with open(nomearquivo, "r") as arquivo:
+        conteudo = arquivo.read()
+        print(conteudo)
 
-#função que usa pandas para filtrar dados
-def         import pandas as pd
+# função que usa pandas para filtrar dados
+
 
 def filtrar_dados(nomearquivo):
     try:
@@ -37,13 +37,16 @@ def filtrar_dados(nomearquivo):
         if nomearquivo.endswith('.csv'):
             dados = pd.read_csv(nomearquivo)  # Carregar arquivo CSV
         elif nomearquivo.endswith('.log') or nomearquivo.endswith('.txt'):
-            dados = pd.read_csv(nomearquivo, sep='\n', header=None)  # Carregar arquivo .log ou .txt
+            # Carregar arquivo .log ou .txt
+            dados = pd.read_csv(nomearquivo, sep='\n', header=None)
         else:
             print("Tipo de arquivo não suportado.")
             return
 
         # Filtrando dados que contêm a palavra 'erro' (ajuste a palavra se precisar)
-        dados_filtrados = dados[dados[0].str.contains('erro', case=False, na=False)]  # 'erro' é o padrão que estamos procurando
+        # 'erro' é o padrão que estamos procurando
+        dados_filtrados = dados[dados[0].str.contains(
+            'erro', case=False, na=False)]
 
         # Exibindo os dados filtrados
         print("Dados filtrados:")
@@ -55,21 +58,21 @@ def filtrar_dados(nomearquivo):
 
     except Exception as e:
         print(f"Erro ao processar o arquivo: {e}")
- 
-                
-#--------------------------------------------------------------------      
+
+
+# --------------------------------------------------------------------
 # definição da janela
 app = ctk.CTk()
-#Titulo da janela
+# Titulo da janela
 app.title("Pipeline Python")
-#Dimensionamento da janela altura e largura
+# Dimensionamento da janela altura e largura
 app.geometry("550x500")
 # texto de boas vindas
 Label = ctk.CTkLabel(
-app, text="Bem vindo(a) a aplicação de leitura de arquivos pipeline")
+    app, text="Bem vindo(a) a aplicação de leitura de arquivos pipeline")
 Label.pack(pady=15)
-#Campo de texto
-texto = ctk.CTkTextbox(app, height=12 )
+# Campo de texto
+texto = ctk.CTkTextbox(app, height=12)
 texto.pack(pady=10)
 
 
@@ -78,11 +81,8 @@ botao = ctk.CTkButton(app, text="prosseguir", command=prosseguir)
 botao.pack(pady=10)
 
 app.mainloop()
-#----------------------------------fim-da-janela----------------------------------------------------
+# ----------------------------------fim-da-janela----------------------------------------------------
 
 # Desenvolvimento das etapas do pipeline:
 # 1-Etapa-> Ler arquivo de Log usando da biblioteca do pandas e suas funcionalidades
-#principais extensões são .log, .txt, .csv, .odbc
-
-
-
+# principais extensões são .log, .txt, .csv, .odbc
