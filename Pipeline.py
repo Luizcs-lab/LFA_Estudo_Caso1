@@ -13,7 +13,7 @@ import re
 import pandas as pd
 import customtkinter as ctk
 from tkinter import Tk
-from tkinter.filedialog import askopenfile
+from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import FileDialog
 from tkinter import filedialog
 # criando a interface do programa e sua cor de fundo
@@ -24,29 +24,27 @@ ctk.set_appearance_mode('ligth')
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
     Tk().withdraw()
-    nomearquivo = filedialog.askopenfilename(title="Selecione um arquivo",filetypes=[("*.log; *.txt ")])  
-    return   
+    nomearquivo = askopenfilename()       
     with open(nomearquivo, "r", encoding="utf-8") as arquivo:
         conteudo = arquivo.read()
         
         texto.delete("1.0",ctk.END)
         texto.insert(ctk.END,conteudo)
-
+#função para fechar a aplicação
+def fechar():
+    app.destroy()  
 # função que usa pandas para filtrar dados
-
-
-def filtrar_dados(nomearquivo):
+def filtrar_dados(conteudo):
     try:
         # Verificar a extensão do arquivo
-        if nomearquivo.endswith('.csv'):
-            dados = pd.read_csv(nomearquivo)  # Carregar arquivo CSV
-        elif nomearquivo.endswith('.log') or nomearquivo.endswith('.txt'):
+        if conteudo.endswith('.csv'):
+            dados = pd.read_csv(conteudo)  # Carregar arquivo CSV
+        elif conteudo.endswith('.log') or conteudo.endswith('.txt'):
             # Carregar arquivo .log ou .txt
-            dados = pd.read_csv(nomearquivo, sep='\n', header=None)
+            dados = pd.read_csv(conteudo, sep='\n', header=None)
         else:
             print("Tipo de arquivo não suportado.")
             return
-
         # Filtrando dados que contêm a palavra 'erro' (ajuste a palavra se precisar)
         # 'erro' é o padrão que estamos procurando
         dados_filtrados = dados[dados[0].str.contains(
@@ -55,6 +53,8 @@ def filtrar_dados(nomearquivo):
         # Exibindo os dados filtrados
         print("Dados filtrados:")
         print(dados_filtrados)
+        texto.delete("1.0",ctk.END)
+        texto.insert(ctk.END, dados_filtrados)
 
         # Salvar os dados filtrados em um novo arquivo CSV
         dados_filtrados.to_csv('dados_filtrados.csv', index=False)
@@ -76,7 +76,7 @@ Label = ctk.CTkLabel(
     app, text="Bem vindo(a) a aplicação de leitura de arquivos pipeline")
 Label.pack(pady=15)
 # Campo de texto
-texto = ctk.CTkTextbox(app, height=12, width=18)
+texto = ctk.CTkTextbox(app,  height=250, width=480)
 texto.pack(pady=10)
 
 
@@ -84,6 +84,8 @@ texto.pack(pady=10)
 botao = ctk.CTkButton(app, text="prosseguir", command=prosseguir)
 botao.pack(pady=10)
 
+botaoclose = ctk.CTkButton(app, text="fechar", command=fechar, fg_color="black")
+botaoclose.pack()
 app.mainloop()
 # ----------------------------------fim-da-janela----------------------------------------------------
 
