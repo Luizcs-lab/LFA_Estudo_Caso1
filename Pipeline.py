@@ -10,34 +10,43 @@
 # Bibliotecas que serão usadas:
 # import re para Token, import Pandas para pipeline e pyautogui (automação de IA) ou import Dask, import scikit-learn para machine learning para classificação
 import re
-import pandas as pd
-import customtkinter as ctk
+import win32evtlog
+import pandas as pd  # type: ignore
+import customtkinter as ctk  # type: ignore
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import FileDialog
 from tkinter import filedialog
 # criando a interface do programa e sua cor de fundo
 ctk.set_appearance_mode('ligth')
+
+# biblioteca que serve para acessar os logs do sistema do windows
+
+# --------------------------------------------------------------------------
 # função para abrir o explorador de arquivos para o usuário selecionar
 
 
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
     Tk().withdraw()
-    nomearquivo = askopenfilename()       
+    nomearquivo = askopenfilename()
     with open(nomearquivo, "r", encoding="utf-8") as arquivo:
         conteudo = arquivo.read()
-        
-        texto.delete("1.0",ctk.END)
-        texto.insert(ctk.END,conteudo)
-#função para fechar a aplicação
+
+        texto.delete("1.0", ctk.END)
+        texto.insert(ctk.END, conteudo)
+# função para fechar a aplicação
+
+
 def fechar():
-    app.destroy()  
+    app.destroy()
 # função que usa pandas para filtrar dados
+
+
 def filtrar_dados(conteudo):
     try:
-        # Verificar a extensão do arquivo
-        if conteudo.endswith('.csv'):
+        # Verificar se o tipo é error
+        if conteudo.endswith('ERRO'):
             dados = pd.read_csv(conteudo)  # Carregar arquivo CSV
         elif conteudo.endswith('.log') or conteudo.endswith('.txt'):
             # Carregar arquivo .log ou .txt
@@ -53,7 +62,7 @@ def filtrar_dados(conteudo):
         # Exibindo os dados filtrados
         print("Dados filtrados:")
         print(dados_filtrados)
-        texto.delete("1.0",ctk.END)
+        texto.delete("1.0", ctk.END)
         texto.insert(ctk.END, dados_filtrados)
 
         # Salvar os dados filtrados em um novo arquivo CSV
@@ -84,7 +93,8 @@ texto.pack(pady=10)
 botao = ctk.CTkButton(app, text="prosseguir", command=prosseguir)
 botao.pack(pady=10)
 
-botaoclose = ctk.CTkButton(app, text="fechar", command=fechar, fg_color="black")
+botaoclose = ctk.CTkButton(
+    app, text="fechar", command=fechar, fg_color="black")
 botaoclose.pack()
 app.mainloop()
 # ----------------------------------fim-da-janela----------------------------------------------------
@@ -92,3 +102,4 @@ app.mainloop()
 # Desenvolvimento das etapas do pipeline:
 # 1-Etapa-> Ler arquivo de Log usando da biblioteca do pandas e suas funcionalidades
 # principais extensões são .log, .txt, .csv, .odbc
+# Chamada das funções:
