@@ -1,7 +1,7 @@
 # Desenvolvedores:
 # Cesar luiz da silva, Caio Moura, Gabi e Pedro
 # de acordo com EC1 nosso pipeline deverá conter pelo menos 4 etapas de processamento:
-# 1- Ler o arquivo de Log
+# 1- Ler/coletar o arquivo de Log
 # 2- Usar Token automatizado com IA para classificação e identificar padrão
 # 3- Transformar/formatar os dados do Log
 # 4- Saída, salvar as informações relevantes em novo arquivo
@@ -16,10 +16,38 @@ from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import FileDialog
 from tkinter import filedialog
+import win32evtlog
 
-# criando a interface do programa e sua cor de fundo
+# ------------------ criando a interface do programa e sua cor de fundo---------------
 ctk.set_appearance_mode('ligth')
-# função para abrir o explorador de arquivos para o usuário selecionar
+
+
+# --------------------função para coletar logs do sistema windows-------------------
+def PegarLog(TipoDeLog="System", quantidade=15):
+    # local onde irá pegar
+    Local = "localhost"
+# ------------------- Abre os eventos de log do sistema----------------------------
+    coleta = win32evtlog.OpenEventLog(Local, TipoDeLog)
+    pegar = win32evtlog.EVENTLOG_BACKWARDS_READ | win32evtlog.EVENTLOG_SEQUENTIAL_READ
+    eventos = win32evtlog.ReadEventLog(coleta, pegar, 0)
+
+    contar = 0
+    for evento in eventos:
+        if contar >= quantidade:
+            break
+        # Pega exatamente as informações do log
+        print(
+            f"[{evento.TimeGenerated}]{evento.EventType}-{evento.SourceName}-{evento.StringInserts}")
+        contar += 1
+    # -----------------salva os logs coletados---------------
+    with open(eventos, "w") as save:
+        save.write(eventos)
+
+        win32evtlog.CloseEventLog(coleta)
+
+
+PegarLog(TipoDeLog="System", quantidade=15)
+# ------------função para abrir o explorador de arquivos para o usuário selecionar-------------------
 
 
 def prosseguir():
@@ -31,7 +59,7 @@ def prosseguir():
 
         texto.delete("1.0", ctk.END)
         texto.insert(ctk.END, conteudo)
-# função para fechar a aplicação
+# ----------------função para fechar a aplicação----------------------
 
 
 def fechar():
@@ -39,43 +67,10 @@ def fechar():
 # função que usa pandas para filtrar dados
 
 
-def filtrar_dados(conteudo):
-    try:
-        # Verificar a extensão do arquivo
-        if conteudo.endswith('.csv'):
-            dados = pd.read_csv(conteudo)  # Carregar arquivo CSV
-        elif conteudo.endswith('.log') or conteudo.endswith('.txt'):
-            # Carregar arquivo .log ou .txt
-            #    dados = pd.read_csv(conteudo, sep='\n', header=None)
-            # else:
-         #   print("Tipo de arquivo não suportado.")
-          #  return
-            # Filtrando dados que contêm a palavra 'erro' (ajuste a palavra se precisar)
-            # 'erro' é o padrão que estamos procurando
-            # dados_filtrados = dados[dados[0].str.contains(
-         #   'erro', case=False, na=False)]
+# def filtrar_dados(conteudo):
 
-            # Exibindo os dados filtrados
-        print("Dados filtrados:")
-        print(dados_filtrados)
-        texto.delete("1.0", ctk.END)
-        texto.insert(ctk.END, dados_filtrados)
-
-        # Salvar os dados filtrados em um novo arquivo CSV
-        # dados_filtrados.to_csv('dados_filtrados.csv', index=False)
-        # print("Dados filtrados salvos em 'dados_filtrados.csv'")
-
-    # except Exception as e:
-     #   print(f"Erro ao processar o arquivo: {e}")
-
-# Função Pipeline
-# ------------------------------------------------------------------------------------------
-    def Pipeline():
-        logs_filtro = filtrar_dados(nivel="Erro")  # type: ignore
-
-
-# ----------------------------------Início da janela---------------------------------------
-# definição da janela
+    # ----------------------------------Início da janela---------------------------------------
+    # definição da janela
 app = ctk.CTk()
 # Titulo da janela
 app.title("Pipeline Python")
@@ -99,6 +94,8 @@ botaoclose.pack()
 app.mainloop()
 # ----------------------------------fim-da-janela----------------------------------------------------
 
-# Desenvolvimento das etapas do pipeline:
-# 1-Etapa-> Ler arquivo de Log usando da biblioteca do pandas e suas funcionalidades
-# principais extensões são .log, .txt, .csv, .odbc
+
+# ------------Função Pipeline executa cada etapa em sequência-----------------
+def Pipeline():
+    coletar = PegarLog(TipoDeLog="System", quantidade=10)
+    logs_filtro = filtrar_dados(nivel="Erro")  # type: ignore
