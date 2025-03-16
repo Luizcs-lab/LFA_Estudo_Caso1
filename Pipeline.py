@@ -1,7 +1,7 @@
 # Desenvolvedores:
 # Cesar luiz da silva, Caio Moura, Gabi e Pedro
 # de acordo com EC1 nosso pipeline deverá conter pelo menos 4 etapas de processamento:
-# 1- Ler o arquivo de Log
+# 1- Ler/coletar o arquivo de Log
 # 2- Usar Token automatizado com IA para classificação e identificar padrão
 # 3- Transformar/formatar os dados do Log
 # 4- Saída, salvar as informações relevantes em novo arquivo
@@ -16,27 +16,21 @@ from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import FileDialog
 from tkinter import filedialog
-
-# criando a interface do programa e sua cor de fundo
+import win32evtlog
+# ------------------ criando a interface do programa e sua cor de fundo---------------
 ctk.set_appearance_mode('ligth')
+# ------------função para abrir o explorador de arquivos para o usuário selecionar-------------------
 
-
-Padrao= r'\s+(Erro|Aviso|Informações)\s'
-
-#---------------------------------------------------------------------
-# função para abrir o explorador de arquivos para o usuário selecionar
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
     Tk().withdraw()
-    #Abre a o explorador e armazena o conteudo do arquivo na variável
     nomearquivo = askopenfilename()
     with open(nomearquivo, "r", encoding="utf-8") as arquivo:
         conteudo = arquivo.read()
-        
-        texto.delete("1.0",ctk.END)
-        texto.insert(ctk.END,conteudo)
-#---------------------------------------------------------------------
-#função para fechar a aplicação
+
+        texto.delete("1.0", ctk.END)
+        texto.insert(ctk.END, conteudo)
+# ----------------função para fechar a aplicação----------------------
 def fechar():
     app.destroy()  
 #---------------------------------------------------------------------    
@@ -51,8 +45,9 @@ def Filtrar_Log():
 #------------------------------------------------------------------------------------------
 def Pipeline():
     Filtrar_Log()
-# ----------------------------------Início da janela---------------------------------------
-# definição da janela
+    # ----------------------------------Início da janela---------------------------------------
+    # definição da janela
+
 app = ctk.CTk()
 # Titulo da janela
 app.title("Pipeline Python")
@@ -65,6 +60,7 @@ Label.pack(pady=15)
 # Campo de texto
 texto = ctk.CTkTextbox(app,  height=250, width=480)
 texto.pack(pady=10)
+
 #---------Botão para prosseguir com a aplicação e mostrar a janela do explorador de arquivos chamando a função prosseguir
 botao = ctk.CTkButton(app, text="prosseguir", command=prosseguir, fg_color="black")
 botao.pack(pady=10)
