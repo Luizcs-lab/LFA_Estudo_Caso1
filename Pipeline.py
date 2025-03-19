@@ -12,22 +12,20 @@
 import re
 import pandas as pd
 import customtkinter as ctk
+from IPython.display import display
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
 from tkinter.filedialog import FileDialog
 from tkinter import filedialog
-import win32evtlog
 # ------------------ criando a interface do programa e sua cor de fundo---------------
 ctk.set_appearance_mode('ligth')
 # ------------função para abrir o explorador de arquivos para o usuário selecionar-------------------
-
 def prosseguir():
     # permite a seleção do arquivo dentro do explorador e retorna para o usuário
     Tk().withdraw()
     nomearquivo = askopenfilename()
     with open(nomearquivo, "r", encoding="utf-8") as arquivo:
         conteudo = arquivo.read()
-
         texto.delete("1.0", ctk.END)
         texto.insert(ctk.END, conteudo)
 # ----------------função para fechar a aplicação----------------------
@@ -36,29 +34,32 @@ def fechar():
 #---------------------------------------------------------------------    
 # função que usa pandas para filtrar dados  
 def Filtrar_Log():
-    tratar = pd.read_csv("log_vendas.csv") # type: ignore
-    print(tratar.head(10)) # type: ignore
-    data = pd.DataFrame(tratar) 
-    print(data)
-
+    pd.options.display.max_rows=10000
+    pd.options.display.max_columns=6
+    tratar = pd.read_csv("log_vendas.csv", delimiter=';') # type: ignore 
+    tratar = tratar.dropna()
+    tratar['valor_unitario'] = pd.to_numeric(tratar['valor_unitario'], errors='coerce')
+    tratar['quantidade'] = pd.to_numeric(tratar["quantidade"], errors='coerce')
+    data = pd.DataFrame(tratar)    
+    texto.delete("1.0",ctk.END)
+    texto.insert(ctk.END,data)
 #Função Pipeline
 #------------------------------------------------------------------------------------------
 def Pipeline():
     Filtrar_Log()
     # ----------------------------------Início da janela---------------------------------------
     # definição da janela
-
 app = ctk.CTk()
 # Titulo da janela
 app.title("Pipeline Python")
 # Dimensionamento da janela altura e largura
-app.geometry("550x500")
+app.geometry("450x600")
 # texto de boas vindas
 Label = ctk.CTkLabel(
     app, text="Bem vindo(a) a aplicação de leitura de arquivos pipeline")
 Label.pack(pady=15)
 # Campo de texto
-texto = ctk.CTkTextbox(app,  height=250, width=480)
+texto = ctk.CTkTextbox(app,  height=250, width=600)
 texto.pack(pady=10)
 
 #---------Botão para prosseguir com a aplicação e mostrar a janela do explorador de arquivos chamando a função prosseguir
@@ -72,4 +73,3 @@ botaoclose = ctk.CTkButton(app, text="fechar", command=fechar, fg_color="black")
 botaoclose.pack()
 app.mainloop()
 # ----------------------------------fim-da-janela----------------------------------------------------
-Pipeline()
