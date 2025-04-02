@@ -1,2 +1,2 @@
-# LFA_Estudo_Caso1
-Projeto em Python para pipeline de logs, usando algoritmo de IA (Machine Learning) para análise e identificação de padrões utilizando a tokenização para autenticação
+# Projeto LFA_Estudo_Caso1
+Projeto em Python para pipeline de logs, o arquivo que será usado é um conjunto de dados sobre vendas de produtos eletrônicos, usando algoritmo de IA (Machine Learning) biblioteca sklearn tipo IsolationForest, (Expressões regulares) import re para definir padrões que serão análisados pela IA, numpy para trabalhar com os cálculos que envolvem média, porcentagem e total de vendas. Random para geração de elementos aleatórios. 
