@@ -1,0 +1,11 @@
+Prompt.txt
+vendas.db
+log_vendas.csv
+Prompt1.txt
+dados_vendas.json
+dados.json
+log_processado.json
+__pycache__/
+venv/
+*.pyc
+.DS_Store
