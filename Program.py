@@ -3,7 +3,6 @@
 import re
 import pandas as pd
 import customtkinter as ctk
-import json
 import matplotlib.pyplot as plt
 from sklearn.ensemble import IsolationForest
 from datetime import datetime
