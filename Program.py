@@ -1,4 +1,4 @@
-# Pipeline de Logs Automático com Interface Gráfica (Com Checkboxes)
+# Pipeline de Logs Automático com Interface Gráfica intuitiva para analise de arquivo de log (Com Checkboxes)
 
 import re
 import pandas as pd
@@ -12,7 +12,8 @@ import sqlite3
 
 ctk.set_appearance_mode('light')
 
-# Função para carregar o log
+# Função para carregar o log, o arquivo será selecionado pelo usuário 
+# dentro do explorador de arquivos, onde todas as linhas(registros) serão lidos.
 
 def carregar_log():
     Tk().withdraw()
@@ -21,7 +22,10 @@ def carregar_log():
         conteudo = arquivo.readlines()
     return conteudo
 
-# Função para processar o log e salvar no banco de dados SQLite
+# Função para processar o log e salvar no banco de dados SQLite, por meio 
+# de comandos de DDL para definir a estrutura da tabela para os dados serem armazenados,
+# a função também contem uso de regex para encontrar padrao de tabulação e substituir a vírgula por ponto, 
+# por fim realizando a insersão de dados 
 
 def processar_log(conteudo):
     dados = []
@@ -46,7 +50,8 @@ def processar_log(conteudo):
     conn.commit()
     conn.close()
 
-# Função para detectar anomalias
+# Função para detectar anomalias com IsolationForest que não precisa de treinamento por dado por 
+# não ser supervisionado, separando as anomalias trabalhando em uma estimativa estatistica 
 
 def detectar_anomalias(df):
     clf = IsolationForest(contamination=0.05)
@@ -55,7 +60,8 @@ def detectar_anomalias(df):
     df['anomalia'] = preds
     return df[df['anomalia'] == -1]
 
-# Função para exibir gráficos
+# Função para exibir gráficos referentes aos dados presentes no arquivo é feito um 
+# agrupamento pro categoria e qual a forma da exibição do gráfico 
 
 def exibir_graficos(df):
     total_categoria = df.groupby('categoria').apply(lambda x: (x['preco'] * x['quantidade']).sum())
@@ -83,7 +89,8 @@ def criar_interface():
 
     nomes_vars = {}
     categorias_vars = {}
-
+#Função para realizar filtragem de dados a serem exibidos no gráfico usando o comando de 
+#consulta sql por nome e categoria selecionados
     def atualizar_checkboxes():
         nonlocal nomes_vars, categorias_vars
         for widget in frame_nomes.winfo_children(): widget.destroy()
