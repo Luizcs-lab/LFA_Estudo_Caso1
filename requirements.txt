@@ -1,8 +1,0 @@
-A seguir as bibliotecas usadas para o desenvolvimento do código em python para criação do Pipeline.
-import pandas
-import customtkinter
-import matplotlib
-import sqlite3
-import re
-from sklearn.ensemble import IsolationForest
-from tkinter import TK
