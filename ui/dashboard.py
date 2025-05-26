@@ -37,22 +37,24 @@ def criar_checkboxes(df, frame, var_dict, coluna):
         var_dict[valor] = var
 
 # Cria os botões principais com melhor disposição e estilos visuais
-def criar_botoes_principais(app, carregar_cmd, graficos_cmd, anomalias_cmd, erro_cmd):
+def criar_botoes_principais(app, carregar_cmd, graficos_cmd, anomalias_cmd):
     frame_botoes = ctk.CTkFrame(app)  # Agrupa os botões em um frame centralizado
     frame_botoes.pack(pady=20)
 
-    btn_carregar = ctk.CTkButton(frame_botoes, text='🔄 Carregar Log', command=carregar_cmd, 
-                                 width=200, height=50, font=("Arial", 16), fg_color="#4CAF50")
+    btn_carregar = ctk.CTkButton(
+        frame_botoes, text='🔄 Carregar Log', command=carregar_cmd,
+        width=200, height=50, font=("Arial", 16), fg_color="#4CAF50"
+    )
     btn_carregar.pack(pady=10)
 
-    btn_graficos = ctk.CTkButton(frame_botoes, text='📊 Exibir Gráficos', command=graficos_cmd, 
-                                 width=200, height=50, font=("Arial", 16), fg_color="#2196F3")
+    btn_graficos = ctk.CTkButton(
+        frame_botoes, text='📊 Exibir Gráficos', command=graficos_cmd,
+        width=200, height=50, font=("Arial", 16), fg_color="#2196F3"
+    )
     btn_graficos.pack(pady=10)
 
-    btn_anomalias = ctk.CTkButton(frame_botoes, text='⚠️ Detectar Anomalias', command=anomalias_cmd, 
-                                  width=200, height=50, font=("Arial", 16), fg_color="#FF9800")
+    btn_anomalias = ctk.CTkButton(
+        frame_botoes, text='⚠️ Detectar Anomalias', command=anomalias_cmd,
+        width=200, height=50, font=("Arial", 16), fg_color="#FF9800"
+    )
     btn_anomalias.pack(pady=10)
-
-    btn_erro = ctk.CTkButton(frame_botoes, text='📉 Erro Percentual', command=erro_cmd, 
-                             width=200, height=50, font=("Arial", 16), fg_color="#E91E63")
-    btn_erro.pack(pady=10)
