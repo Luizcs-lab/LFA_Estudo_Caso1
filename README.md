@@ -94,7 +94,7 @@ python App.py
 |-------------------|---------------------------------------|
 | Cesar Luiz da Silva  | [Luizcs-Lab]([https://github.com/Luizcs-lab/LFA_Estudo_Caso1]) |
 | Caio de Moura Camargo  | [Caio-Moura]([https://github.com/Caio-Moura/caso-de-uso]) |
-| Gabriele de Oliveira Antonio  | [Gabi160]([https://github.com/Caio-Moura/caso-de-uso]) |
+| Gabriele de Oliveira Antonio  | [Gabi160]([(https://github.com/Gabi160/LFA_Estudo_Caso1)]) |
 
 
 ---
