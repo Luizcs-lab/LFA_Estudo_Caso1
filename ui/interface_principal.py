@@ -3,71 +3,69 @@ import sqlite3
 import pandas as pd
 
 from modules.processamento import carregar_log, processar_log
-from modules.filtros import aplicar_filtros
-from modules.graficos import exibir_graficos
-from ui.dashboard import criar_widgets_filtros, criar_checkboxes, criar_botoes_principais
+from modules.graficos import exibir_graficos, exibir_dashboard
 from modules.deteccao_anomalia import detectar_anomalias
+from ui.dashboard import criar_botoes_principais
+
 
 def rolar(evento, canvas):
-    """Função que permite rolagem do conteúdo com o scroll do mouse"""
     canvas.yview_scroll(-evento.delta // 120, "units")
+
 
 def criar_interface():
     app = ctk.CTk()
     app.title('Pipeline de Logs Automático')
-
-    # Responsividade
+    
     largura = app.winfo_screenwidth() // 2
     altura = app.winfo_screenheight() // 1.5
-    app.geometry(f"{largura}x{altura}")
+    app.geometry(f"{largura}x{int(altura)}")
 
     # Canvas com rolagem
     canvas = ctk.CTkCanvas(app)
     scrollbar = ctk.CTkScrollbar(app, command=canvas.yview)
     canvas.configure(yscrollcommand=scrollbar.set)
+
     canvas.pack(side="left", fill="both", expand=True)
     scrollbar.pack(side="right", fill="y")
 
+    # Frame principal de conteúdo
     frame_conteudo = ctk.CTkFrame(canvas)
     canvas.create_window((0, 0), window=frame_conteudo, anchor="nw")
 
-    # Filtros
-    nomes_vars, categorias_vars, frame_nomes, frame_categorias, filtro_preco_min, filtro_preco_max = criar_widgets_filtros(frame_conteudo)
-
+    # Frame dos botões
     frame_botoes = ctk.CTkFrame(frame_conteudo)
-    frame_botoes.pack(pady=20)   
+    frame_botoes.pack(pady=20)
 
-    def atualizar_checkboxes():
-        for widget in frame_nomes.winfo_children():
-            widget.destroy()
-        for widget in frame_categorias.winfo_children():
-            widget.destroy()
+    # Frame para gráficos e dashboards
+    grafico_frame = ctk.CTkFrame(frame_conteudo)
+    grafico_frame.pack(fill='both', expand=True, padx=10, pady=10)
 
-        conn = sqlite3.connect("vendas.db")
-        df = pd.read_sql_query("SELECT DISTINCT nome, categoria FROM vendas", conn)
-        conn.close()
-
-        criar_checkboxes(df, frame_nomes, nomes_vars, 'nome')
-        criar_checkboxes(df, frame_categorias, categorias_vars, 'categoria')
-
+    # Função de carregamento de log
     def carregar():
         conteudo = carregar_log()
         processar_log(conteudo)
-        atualizar_checkboxes()
 
+    # Função para exibir gráficos padrão
     def graficos():
-        df = aplicar_filtros(nomes_vars, categorias_vars, filtro_preco_min, filtro_preco_max)
+        df = pd.read_sql_query("SELECT * FROM vendas", sqlite3.connect("vendas.db"))
         exibir_graficos(df)
 
+    # Função para detectar anomalias
     def anomalias():
-        df = aplicar_filtros(nomes_vars, categorias_vars, filtro_preco_min, filtro_preco_max)
+        df = pd.read_sql_query("SELECT * FROM vendas", sqlite3.connect("vendas.db"))
         anomalias_df = detectar_anomalias(df)
         print("\nAnomalias detectadas:")
         print(anomalias_df[['id', 'nome', 'preco', 'quantidade', 'categoria']])
 
-    # Criando botões principais (sem erro percentual)
-    criar_botoes_principais(frame_botoes, carregar, graficos, anomalias)
+    # Função para exibir dashboard integrado
+    def dashboard():
+        df = pd.read_sql_query("SELECT * FROM vendas", sqlite3.connect("vendas.db"))
+        exibir_dashboard(df, grafico_frame)
 
+    # Criação dos botões
+    criar_botoes_principais(frame_botoes, carregar, graficos, anomalias, dashboard)
+
+    # Scroll responsivo
     def ajustar_scroll(event):
         canvas.configure(scrollregion=canvas.bbox("all"))
 
@@ -75,5 +73,3 @@ def criar_interface():
     app.bind_all("<MouseWheel>", lambda event: rolar(event, canvas))
 
     app.mainloop()
-
-criar_interface()
