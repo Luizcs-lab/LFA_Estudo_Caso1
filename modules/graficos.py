@@ -2,6 +2,8 @@ import customtkinter as ctk
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
+from modules.deteccao_anomalia import detectar_anomalias
+
 class GraficosController:
     def __init__(self, df, container):
         self.df = df
@@ -53,9 +55,9 @@ class GraficosController:
         total_categoria = self.df.groupby('categoria').apply(lambda x: (x['preco'] * x['quantidade']).sum())
 
         explode = [0.1 if i == total_categoria.idxmax() else 0 for i in total_categoria.index]
-        cores = plt.cm.Pastel1.colors
+        cores = plt.cm.Pastel1.colors # type: ignore
 
-        wedges, texts, autotexts = self.ax.pie(
+        wedges, texts, autotexts = self.ax.pie( # type: ignore
             total_categoria,
             labels=total_categoria.index,
             autopct='%1.1f%%',
@@ -92,3 +94,20 @@ class GraficosController:
 
 def exibir_graficos(df, container):
     return GraficosController(df, container)
+
+def exibir_grafico_anomalias(df):
+    # Detecta anomalias
+    df_anomalias = detectar_anomalias(df)
+
+    # Ordena para visualização mais clara
+    df_anomalias = df_anomalias.sort_values(by='quantidade', ascending=False)
+
+    # Gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.barh(df_anomalias['nome'], df_anomalias['quantidade'], color='tomato')
+    plt.xlabel('Quantidade')
+    plt.ylabel('Produto Anômalo')
+    plt.title('Quantidade de Produtos com Dados Anômalos')
+    plt.gca().invert_yaxis()  # Opcional: para colocar o maior no topo
+    plt.tight_layout()
+    plt.show()
