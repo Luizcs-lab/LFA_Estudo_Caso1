@@ -79,6 +79,7 @@ def criar_interface():
         except Exception as e:
             msgbox.showerror("Erro", f"Erro ao detectar anomalias:\n{e}")
 
+    
     def dashboard():
         if not log_carregado['status']:
             msgbox.showwarning("Aviso", "Por favor, carregue o log antes de abrir o dashboard.")
