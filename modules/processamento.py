@@ -1,6 +1,9 @@
 # Arquivo: processamento/log.py
 import re
 import sqlite3
+from modules.deteccao_anomalia import detectar_anomalias
+from matplotlib import pyplot as plt
+from tkinter import messagebox
 
 def carregar_log():
     from tkinter import Tk
@@ -10,6 +13,27 @@ def carregar_log():
     with open(nomearquivo, 'r', encoding='utf-8') as arquivo:
         conteudo = arquivo.readlines()
     return conteudo
+
+def detectar_e_plotar(self):
+    if hasattr(self, 'df_log'):
+        df_anomalias = detectar_anomalias(self.df_log)
+        if not df_anomalias.empty:
+            # Ordena por quantidade para o gráfico
+            df_anomalias = df_anomalias.sort_values(by='quantidade', ascending=False)
+            
+            # Exibe gráfico de barras
+            plt.figure(figsize=(10, 6))
+            plt.barh(df_anomalias['nome'], df_anomalias['quantidade'], color='tomato')
+            plt.xlabel('Quantidade')
+            plt.ylabel('Produto Anômalo')
+            plt.title('Quantidade de Produtos com Dados Anômalos')
+            plt.gca().invert_yaxis()
+            plt.tight_layout()
+            plt.show()
+        else:
+            messagebox.showinfo("Anomalias", "Nenhuma anomalia detectada.")
+    else:
+        messagebox.showwarning("Erro", "Carregue o log primeiro.")
 
 def processar_log(conteudo):
     dados = []
