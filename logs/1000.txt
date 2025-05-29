@@ -1,0 +1,1000 @@
+1;PC Gamer Ultimate;7500,00;1;computador de alto desempenho
+2;Mouse Ergonômico Sem Fio;220,00;2;periférico de entrada
+3;Notebook Gamer High-End;4800,00;1;computador portátil
+4;Impressora Laser Colorida;1200,00;1;periférico de impressão
+5;Smart TV OLED 65";-4500,00;1;entretenimento
+6;Teclado Óptico Mecânico;350,00;3;periférico de entrada
+7;Monitor Gamer 144Hz;2100,00;1;acessório de vídeo
+8;Headset Wireless 7.1;480,00;2;periférico de áudio
+9;Roteador Mesh Wi-Fi 6E;800,00;5;rede e conectividade
+10;Tablet Pro com Caneta;2500,00;1;dispositivo móvel
+11;Câmera Mirrorless Full Frame;5500,00;1;fotografia e vídeo
+12;Smartwatch com ECG;1200,00;5;wearable
+13;Caixa de Som Portátil JBL;300,00;10;áudio portátil
+14;Pendrive 256GB USB 3.2;150,00;10;armazenamento
+15;SSD NVMe PCIe Gen4 2TB;1100,00;2;armazenamento interno
+16;Placa de Vídeo RTX 4080;6800,00;1;componente de hardware
+17;Fone de Ouvido Noise Cancelling;450,00;5;periférico de áudio
+18;Console de Nova Geração;3800,00;1;entretenimento
+19;Webcam 8K;700,00;2;periférico de vídeo
+20;Mesa Digitalizadora Profissional;900,00;2;periférico de entrada
+21;Projetor 4K Ultra Curta Distância;5000,00;1;acessório de vídeo
+22;Controle Universal Smart Home;150,00;3;acessório de controle
+23;E-reader com Iluminação;700,00;1;dispositivo de leitura
+24;Drone Profissional com Estabilizador;4500,00;1;veículo aéreo
+25;GPS de Bike com Mapeamento;550,00;2;navegação
+26;Microfone USB Profissional;400,00;3;periférico de áudio
+27;Impressora 3D de Resina;3500,00;1;fabricação digital
+28;Termostato Inteligente com Sensores;380,00;1;automação residencial
+29;Lâmpada Inteligente Dimmable;90,00;5;iluminação inteligente
+30;Robô Aspirador com Mapeamento;1800,00;1;eletrodoméstico inteligente
+31;HD Externo 4TB Criptografado;700,00;2;armazenamento externo
+32;Placa-mãe Intel Z790;1500,00;1;componente de hardware
+33;Memória RAM 32GB DDR5;1200,00;1;componente de hardware
+34;Processador Intel Core i9;3000,00;1;componente de hardware
+35;Fonte de Alimentação Modular 850W;600,00;1;componente de hardware
+36;Gabinete com Lateral de Vidro Temperado;700,00;1;componente de hardware
+37;Sistema de Som Profissional Hi-Fi;5000,00;1;áudio e vídeo
+38;Óculos de Realidade Mista;3500,00;1;entretenimento imersivo
+39;Barra de Som com Subwoofer;1200,00;1;áudio
+40;Câmera de Segurança Dome PTZ;500,00;2;segurança
+41;Fechadura Digital Biométrica;900,00;1;segurança residencial
+42;Televisor Portátil 10";550,00;2;entretenimento
+43;Monitor Gamer Ultrawide Curvo;2500,00;1;acessório de vídeo
+44;Adaptador Bluetooth 5.0;60,00;10;conectividade
+45;Cartão de Memória Micro SD 128GB;90,00;15;armazenamento
+46;Power Bank 20000mAh com QC;180,00;8;energia portátil
+47;Mini Projetor Portátil Android;1200,00;1;acessório de vídeo
+48;Repetidor Wi-Fi Dual Band;180,00;5;rede e conectividade
+49;Central Multimídia com Navegação GPS;1500,00;1;entretenimento automotivo
+50;Fone de Condução Óssea Premium;600,00;3;periférico de áudio
+51;Carregador Sem Fio Duplo;120,00;5;acessório de energia
+52;Leitor de Cartões Múltiplo USB-C;50,00;20;acessório de leitura
+53;Cabo HDMI 2.1 8K;70,00;15;cabo de vídeo
+54;Cabo Thunderbolt 4;80,00;20;cabo de dados
+55;Adaptador USB-C para HDMI/USB/Ethernet;150,00;10;conectividade
+56;Webcam 8K Profissional;800,00;1;periférico de vídeo
+57;Impressora de Etiquetas de Envio;450,00;2;periférico de impressão
+58;Cortina Inteligente com Motor;1000,00;1;automação residencial
+59;Espelho Smart com Tela Touch;2500,00;1;automação residencial
+60;Purificador de Ar com Filtro HEPA UV;1500,00;1;eletrodoméstico inteligente
+61;Câmera de Ação 5K com Estabilização;1500,00;1;fotografia e vídeo
+62;Gimbal Profissional para Câmeras;900,00;2;acessório de vídeo
+63;Iluminador LED Bi-Color para Vídeo;250,00;5;acessório de vídeo
+64;Lente para Smartphone Telefoto;120,00;10;acessório de fotografia
+65;Tripé de Fibra de Carbono;250,00;5;acessório de fotografia
+66;Microfone Shotgun Profissional;350,00;8;periférico de áudio
+67;Placa de Captura de Vídeo 4K;1000,00;2;componente de hardware
+68;Mesa de Som Digital com DVS;3500,00;1;áudio profissional
+69;Interface de Áudio USB 8 Canais;900,00;2;áudio profissional
+70;Fones de Monitoramento de Estúdio;800,00;1;áudio profissional
+71;Controlador MIDI com Teclas Ponderadas;1200,00;1;áudio profissional
+72;Sintetizador Analógico;2500,00;1;áudio profissional
+73;Guitarra Elétrica Sem Fio;1800,00;1;instrumento musical eletrônico
+74;Bateria Eletrônica com Pads de Malha;2500,00;1;instrumento musical eletrônico
+75;Pedaleira Multi-efeitos Profissional;1500,00;1;instrumento musical eletrônico
+76;Controlador DJ com Tela LCD;2000,00;1;áudio profissional
+77;Mixer de Áudio com Efeitos;1100,00;2;áudio profissional
+78;Amplificador de Baixo;1800,00;1;áudio profissional
+79;Fones de Ouvido Esportivos com GPS;250,00;5;periférico de áudio
+80;Pulseira Fitness com Oxímetro;450,00;3;wearable
+81;Balança Bioimpedância com App;350,00;2;saúde e bem-estar
+82;Medidor de Pressão Arterial de Braço;220,00;3;saúde e bem-estar
+83;Termômetro Digital com Memória;120,00;5;saúde e bem-estar
+84;Massageador Elétrico de Pés;450,00;2;saúde e bem-estar
+85;Escova de Dentes Elétrica Sônica;250,00;3;saúde e bem-estar
+86;Aparador de Pelos Multifuncional;180,00;4;cuidados pessoais
+87;Secador de Cabelo Iônico Profissional;350,00;2;cuidados pessoais
+88;Chapinha de Cabelo com Vapor;250,00;3;cuidados pessoais
+89;Máquina de Cortar Cabelo Sem Fio;150,00;4;cuidados pessoais
+90;Barbeador Elétrico Rotativo;280,00;3;cuidados pessoais
+91;Cafeteira Inteligente com Moedor;900,00;1;eletrodoméstico inteligente
+92;Chaleira Elétrica com Controle de Temp;350,00;2;eletrodoméstico inteligente
+93;Torradeira com Funções Smart;400,00;2;eletrodoméstico inteligente
+94;Liquidificador de Alta Performance;550,00;1;eletrodoméstico inteligente
+95;Forno Elétrico de Convecção Smart;1800,00;1;eletrodoméstico inteligente
+96;Geladeira Smart com Tela Touch;12000,00;1;eletrodoméstico inteligente
+97;Máquina de Lavar e Secar Smart;5000,00;1;eletrodoméstico inteligente
+98;Cooktop de Indução 4 Bocas;2200,00;1;eletrodoméstico inteligente
+99;Exaustor com Sensor de Fumaça;1200,00;1;eletrodoméstico inteligente
+100;Lava-louças Smart com Dispenser Auto;3500,00;1;eletrodoméstico inteligente
+101;Robô Limpador de Vidros;1200,00;1;eletrodoméstico inteligente
+102;Câmera Veicular com GPS e Wi-Fi;450,00;2;automotivo
+103;Sensor de Estacionamento com Display;250,00;5;automotivo
+104;Câmera de Ré com Linhas Dinâmicas;200,00;4;automotivo
+105;Sistema de Alarme Automotivo com App;600,00;2;automotivo
+106;Rastreador Veicular via Satélite;450,00;3;automotivo
+107;Pneu com Sensor de Pressão;1000,00;4;automotivo
+108;Bateria de Íon de Lítio Automotiva;800,00;2;automotivo
+109;Kit de Faróis de LED Adaptativo;350,00;4;automotivo
+110;Central Multimídia com Tela Flutuante;2500,00;1;automotivo
+111;Carregador de Bateria Inteligente Auto;200,00;5;automotivo
+112;Ferro de Passar a Vapor Smart;350,00;2;eletrodoméstico
+113;Vaporizador de Roupa Vertical Profissional;450,00;2;eletrodoméstico
+114;Aspirador de Pó Robô com Base Auto-esvaziadora;2500,00;1;eletrodoméstico
+115;Enceradeira Industrial;500,00;2;eletrodoméstico
+116;Máquina de Costura Computadorizada Avançada;1200,00;1;eletrodoméstico
+117;Micro-ondas com Função Crisp;700,00;1;eletrodoméstico
+118;Air Fryer com Display Digital;700,00;1;eletrodoméstico
+119;Batedeira Planetária com Acessórios;550,00;1;eletrodoméstico
+120;Processador de Alimentos Multifuncional;450,00;1;eletrodoméstico
+121;Máquina de Pão Programável;600,00;1;eletrodoméstico
+122;Panela de Pressão Elétrica Digital;450,00;1;eletrodoméstico
+123;Grill Elétrico Antiaderente;300,00;2;eletrodoméstico
+124;Sanduicheira com Placas Removíveis;150,00;3;eletrodoméstico
+125;Espremedor de Frutas Elétrico Industrial;120,00;5;eletrodoméstico
+126;Liquidificador Portátil Recarregável;180,00;4;eletrodoméstico
+127;Máquina de Gelo em Pepitas;900,00;1;eletrodoméstico
+128;Adegas Climatizadas com Compressor;1800,00;1;eletrodoméstico
+129;Frigobar com Freezer;800,00;1;eletrodoméstico
+130;Bebedouro com Filtro e Água Gelada;400,00;2;eletrodoméstico
+131;Chuveiro Eletrônico com Controle de Temp;350,00;3;eletrodoméstico
+132;Aquecedor de Ambiente com Timer;400,00;2;eletrodoméstico
+133;Umidificador de Ar com Ionizador;250,00;3;eletrodoméstico
+134;Desumidificador de Ar com Drenagem Contínua;600,00;1;eletrodoméstico
+135;Ar Condicionado Split Inverter;2500,00;1;eletrodoméstico
+136;Ventilador de Teto com Iluminação LED;450,00;2;eletrodoméstico
+137;Ventilador de Torre com Controle Remoto;180,00;5;eletrodoméstico
+138;Exaustor de Cozinha de Embutir;550,00;1;eletrodoméstico
+139;Triturador de Lixo para Pia;700,00;1;eletrodoméstico
+140;Secadora de Roupas a Gás;3000,00;1;eletrodoméstico
+141;Máquina de Lavar Louça de Embutir;2200,00;1;eletrodoméstico
+142;Abridor de Lata e Afiador de Facas Elétrico;100,00;5;eletrodoméstico
+143;Balancinha Digital de Cozinha com Tigela;90,00;10;eletrodoméstico
+144;Termômetro de Forno Digital sem Fio;70,00;15;eletrodoméstico
+145;Temporizador Digital de Cozinha com Alarme;50,00;20;eletrodoméstico
+146;Fritadeira Sem Óleo Família;500,00;1;eletrodoméstico
+147;Panela de Arroz Elétrica com Cozedor a Vapor;250,00;3;eletrodoméstico
+148;Omeleteira Dupla Elétrica;120,00;5;eletrodoméstico
+149;Crepeira e Panqueca Elétrica;150,00;4;eletrodoméstico
+150;Máquina de Waffles Profissional;180,00;3;eletrodoméstico
+151;Mini Geladeira Portátil com Aquecedor;350,00;2;eletrodoméstico
+152;Câmera de Segurança Externa com IA;600,00;1;segurança
+153;Sensor de Movimento PIR Inteligente;200,00;3;segurança
+154;Sensor de Abertura de Portas/Janelas Zigbee;150,00;4;segurança
+155;Alarme Residencial com Teclado Touch;1200,00;1;segurança
+156;Sirene de Alarme Interna com Flash;250,00;2;segurança
+157;Câmera IP Interna com Rastreamento;350,00;2;segurança
+158;Videoporteiro com Destravamento;900,00;1;segurança
+159;Campainha Inteligente com Detecção Facial;600,00;1;segurança
+160;Detector de Fumaça e CO Inteligente;250,00;3;segurança
+161;Detector de Vazamento de Água;180,00;2;segurança
+162;Sensor de Quebra de Vidro;120,00;5;segurança
+163;Central de Automação Residencial com Gateway;1800,00;1;automação residencial
+164;Tomada Inteligente com Medição de Energia;120,00;5;automação residencial
+165;Interruptor Inteligente com Dimmer;150,00;4;automação residencial
+166;Controle Universal IR e RF;180,00;3;automação residencial
+167;Câmera Panorâmica Wi-Fi com Audio 2 Vias;800,00;1;segurança
+168;Drone de Vigilância com Termal;4500,00;1;segurança
+169;Refletor LED Inteligente com Câmera e Alarme;700,00;1;segurança
+170;DVR/NVR Híbrido 16 Canais;1500,00;1;segurança
+171;Bateria para Nobreak de Longa Duração;350,00;2;energia
+172;Filtro de Linha com Proteção contra Surto;100,00;10;energia
+173;Adaptador de Viagem Universal com USB;50,00;20;energia
+174;Fonte Universal para Notebook com Display;180,00;5;energia
+175;Carregador Portátil para Notebook 65W;400,00;2;energia portátil
+176;Inversor de Corrente Senoidal Pura;250,00;3;energia
+177;Kit Painel Solar Portátil Dobrável;1200,00;1;energia renovável
+178;Controlador de Carga Solar MPPT;300,00;2;energia renovável
+179;Bateria de Ciclo Profundo Solar;2500,00;1;energia renovável
+180;Iluminação Solar de Rua com Sensor;150,00;5;energia renovável
+181;Lanterna de Mergulho Profissional;200,00;4;iluminação
+182;Luminária de Mesa com Carregador Sem Fio;250,00;3;iluminação
+183;Fita LED RGB Endereçável Inteligente;180,00;5;iluminação inteligente
+184;Projetor de Galáxias;120,00;8;iluminação
+185;Lâmpada UV para Unhas;250,00;3;cuidados pessoais
+186;Sensor de Umidade e Temperatura Inteligente com Display;150,00;5;automação residencial
+187;Sensor de Fumaça com Alarme Integrado;350,00;2;segurança
+188;Estação Meteorológica Profissional;500,00;1;automação residencial
+189;Cadeado Inteligente com Impressão Digital;250,00;3;segurança
+190;Cofre Eletrônico com Biometria;900,00;1;segurança
+191;Destruidora de Papel e CD/DVD;350,00;2;escritório
+192;Calculadora Financeira Programável;400,00;1;escritório
+193;Gravador de Voz com Transcrição;250,00;3;escritório
+194;Etiquetadora Térmica Bluetooth;200,00;4;escritório
+195;Laminadora de Documentos a Frio;280,00;2;escritório
+196;Projetor Laser 4K;4500,00;1;educação/negócios
+197;Tela de Projeção com Borda Fixa;1200,00;1;educação/negócios
+198;Sistema de Videoconferência com Câmera PTZ;3000,00;1;negócios
+199;Telefone IP com Videoconferência;600,00;2;comunicação
+200;Sistema de Ponto Eletrônico Facial;1800,00;1;negócios
+201;Impressora de Etiquetas de Código de Barras;600,00;1;escritório
+202;Leitor de Código de Barras 2D;350,00;2;varejo
+203;Gaveta de Dinheiro com Abertura Automática;200,00;3;varejo
+204;Impressora Fiscal Eletrônica de NFC-e;2800,00;1;varejo
+205;Máquina de Cartão de Crédito Smart;400,00;2;varejo
+206;Impressora de Cheques Automática;700,00;1;escritório
+207;Cortador de Papel Automático Guilhotina;1200,00;1;escritório
+208;Guilhotina de Papel Industrial;600,00;2;escritório
+209;Encadernadora Elétrica com Espiral;400,00;2;escritório
+210;Perfuradora de Papel Elétrica de Alta Produtividade;250,00;3;escritório
+211;Relógio de Ponto com Reconhecimento de Íris;1800,00;1;negócios
+212;Máquina de Contar Cédulas e Detectar Falsas;2200,00;1;negócios
+213;Máquina de Contar Moedas com Separador;1200,00;1;negócios
+214;Detector de Cédulas Falsas UV/MG/IR;280,00;2;negócios
+215;Scanner de Cheques de Alta Velocidade;900,00;1;escritório
+216;Destruidora de Mídias Eletrônicas;180,00;4;escritório
+217;Luminária de Emergência LED com Sensor;120,00;8;iluminação
+218;Refletor LED para Canteiro de Obras;350,00;2;iluminação
+219;Lanterna de Cabeça Recarregável de Alta Potência;90,00;10;iluminação
+220;Pistola de Cola Quente Profissional;120,00;5;ferramentas
+221;Parafusadeira de Impacto;250,00;3;ferramentas
+222;Furadeira sem Fio com Bateria;350,00;2;ferramentas
+223;Serra Circular Elétrica;400,00;2;ferramentas
+224;Lixadeira Roto-orbital;280,00;3;ferramentas
+225;Multímetro Digital com Capacitância;180,00;5;ferramentas
+226;Alicate Amperímetro com True RMS;350,00;2;ferramentas
+227;Medidor de Distância a Laser com Bluetooth;400,00;2;ferramentas
+228;Nível a Laser com Linha Cruzada;550,00;1;ferramentas
+229;Câmera Termográfica com Medição de Temperatura;3500,00;1;ferramentas
+230;Endoscópio de Inspeção com Tela LCD;800,00;1;ferramentas
+231;Gerador de Energia Inverter Portátil;2200,00;1;energia
+232;Fonte de Alimentação Laboratorial;1200,00;1;eletrônica
+233;Osciloscópio Digital de Bancada;3000,00;1;eletrônica
+234;Ferro de Solda com Estação de Solda;200,00;3;eletrônica
+235;Estação de Retrabalho com Ar Quente;400,00;2;eletrônica
+236;Kit de Ferramentas Profissional para Eletrônica;150,00;5;ferramentas
+237;Multímetro Automotivo com RPM;250,00;3;automotivo/ferramentas
+238;Scanner de Diagnóstico OBD2 Profissional;350,00;2;automotivo/ferramentas
+239;Carregador de Bateria Automotiva com Manutenção;280,00;3;automotivo
+240;Testador de Bateria e Alternador;150,00;5;automotivo
+241;Calibrador de Pneus Digital com Manômetro;100,00;10;automotivo
+242;Compressor de Ar Automotivo Portátil;200,00;4;automotivo
+243;Bomba de Água Submersa de Alta Vazão;400,00;2;jardinagem
+244;Aparador de Grama Elétrico com Coletor;500,00;1;jardinagem
+245;Soprador/Aspirador de Folhas Elétrico;350,00;2;jardinagem
+246;Cortador de Cerca Viva a Bateria;400,00;2;jardinagem
+247;Motosserra Elétrica de Poda;600,00;1;jardinagem
+248;Lavadora de Alta Pressão com Indução;800,00;1;limpeza
+249;Aspirador de Pó e Água Industrial;600,00;1;limpeza
+250;Máquina de Limpeza a Vapor Profissional;700,00;1;limpeza
+251;Robô Limpador de Piscinas com Controle Remoto;2800,00;1;limpeza
+252;Máquina de Café Espresso Automática com Moedor;2500,00;1;eletrodoméstico
+253;Moedor de Café Elétrico com Ajuste de Moagem;200,00;3;eletrodoméstico
+254;Leiteira Elétrica com Vaporizador;150,00;4;eletrodoméstico
+255;Máquina de Fazer Sorvete com Compressor;400,00;2;eletrodoméstico
+256;Máquina de Gelo em Bolas;1200,00;1;eletrodoméstico
+257;Adegas para Vinhos Dupla Temperatura;2000,00;1;eletrodoméstico
+258;Cervejeira para Cervejas Especiais;3500,00;1;eletrodoméstico
+259;Máquina de Costura Portátil e Eletrônica;400,00;2;eletrodoméstico
+260;Máquina de Bordar Computadorizada;2500,00;1;eletrodoméstico
+261;Máquina de Overlock Industrial;1500,00;1;eletrodoméstico
+262;Máquina de Tricotar Semi-Industrial;1200,00;1;eletrodoméstico
+263;Impressora de Fotos Portátil com Wi-Fi;500,00;1;fotografia
+264;Câmera Instantânea com Impressão Térmica;450,00;2;fotografia
+265;Filmadora 4K Profissional;1200,00;1;fotografia e vídeo
+266;Iluminador LED para Estúdio com Bateria;280,00;3;fotografia
+267;Softbox Octogonal para Estúdio;400,00;2;fotografia
+268;Fundo Infinito de Tecido Lavável;200,00;4;fotografia
+269;Tripé de Iluminação Profissional;150,00;5;fotografia
+270;Disparador Remoto sem Fio com Timer;100,00;8;fotografia
+271;Flash Speedlite para Câmera;400,00;2;fotografia
+272;Gatilho de Flash TTL sem Fio;200,00;4;fotografia
+273;Rebatedor 5 em 1 para Fotografia;80,00;15;fotografia
+274;Mochila para Câmera DSLR com Rodas;300,00;3;acessório de fotografia
+275;Bolsa para Lente Modular;100,00;10;acessório de fotografia
+276;Kit de Limpeza Profissional para Câmera;60,00;20;acessório de fotografia
+277;Película Protetora para Lente;40,00;25;acessório de fotografia
+278;Bateria Extra de Alta Capacidade para Câmera;180,00;5;acessório de fotografia
+279;Carregador de Bateria Duplo para Câmera;120,00;8;acessório de fotografia
+280;Adaptador de Lente Autofoco;350,00;2;acessório de fotografia
+281;Telefone Sem Fio com Atendimento Automático;250,00;3;comunicação
+282;Secretária Eletrônica Digital com Gravação;150,00;4;comunicação
+283;Fax Laser;400,00;2;comunicação
+284;Rádio Comunicador Profissional com Criptografia;350,00;2;comunicação
+285;Central Telefônica VoIP PABX;2000,00;1;comunicação
+286;Interfone com Câmera e Abertura Remota;500,00;2;comunicação
+287;Sistema de Teleconferência com Microfone Omnidirecional;1200,00;1;comunicação
+288;Telefone Celular - Modelo Indefinido;NÃO ENCONTRADO;1;telefonia
+289;Rádio Portátil com Bluetooth e USB;120,00;5;áudio
+290;Gravador de CD/DVD Externo Slim;180,00;4;armazenamento
+291;Dock Station com Função Clone;150,00;5;armazenamento
+292;Case para SSD Externo;70,00;10;acessório de armazenamento
+293;Leitor de Blu-Ray 4K Externo;300,00;3;entretenimento
+294;Drive de CD/DVD Externo Ultra Fino;100,00;8;armazenamento
+295;Adaptador USB Wi-Fi AC1200;80,00;10;conectividade
+296;Placa de Rede 2.5 Gigabit Ethernet;120,00;8;conectividade
+297;Switch de Rede 16 Portas Gigabit;250,00;5;rede e conectividade
+298;Rack Servidor 9U;700,00;1;rede e conectividade
+299;Nobreak Senoidal Interativo;1200,00;1;energia
+300;Estabilizador de Voltagem para Eletrodomésticos;180,00;5;energia
+301;Transformador de Voltagem de Alta Potência;250,00;3;energia
+302;Gerador de Ozônio para Ambiente Grande;400,00;2;saúde e bem-estar
+303;Aparelho de Jato de Água Dental com Bateria;350,00;2;saúde e bem-estar
+304;Lupa Eletrônica com LCD e Iluminação;200,00;4;ferramentas
+305;Testador de Cabos de Rede e USB;120,00;8;ferramentas
+306;Kit de Limpeza de Eletrônicos Profissional;80,00;15;limpeza
+307;Spray Limpa Contato para Componentes Eletrônicos;50,00;20;limpeza
+308;Ventilador de Coluna com Funções Inteligentes;350,00;2;eletrodoméstico
+309;Climatizador de Ar Evaporativo com Ionizador;600,00;1;eletrodoméstico
+310;Adega de Vinhos com Controle Wi-Fi;3000,00;1;eletrodoméstico
+311;Cervejeira Expositora;1200,00;1;eletrodoméstico
+312;Máquina de Costura Computadorizada de Alta Velocidade;2000,00;1;eletrodoméstico
+313;Forninho Elétrico com Funções Programáveis;900,00;1;eletrodoméstico
+314;Máquina de Café Espresso Automática de Grãos;600,00;2;eletrodoméstico
+315;Cabo de Rede Cat7;50,00;20;cabo de dados
+316;Conector RJ45 Blindado;10,00;50;componente de rede
+317;Crimpador Profissional de Cabo de Rede;120,00;10;ferramentas
+318;Testador de Bateria Universal;30,00;30;ferramentas
+319;Alicate de Corte Diagonal Isolado;60,00;15;ferramentas
+320;Chave Fenda Múltipla Isolada;40,00;20;ferramentas
+321;Estilete de Precisão;25,00;30;ferramentas
+322;Pinça de Retirada de Componentes;30,00;25;ferramentas
+323;Conjunto de Chaves Torx de Segurança;80,00;10;ferramentas
+324;Fita Isolante de Alta Performance;20,00;40;material elétrico
+325;Braçadeira de Aço Inox;15,00;50;material elétrico
+326;Terminais Pré-isolados Sortidos;40,00;20;material elétrico
+327;Prensa Terminal Hidráulica;180,00;5;ferramentas
+328;Descascador de Fio Automático;80,00;15;ferramentas
+329;Kit de Solda Profissional com Estação;120,00;10;eletrônica
+330;Sugador de Solda com Ponta de Silicone;40,00;20;eletrônica
+331;Estanho para Solda sem Chumbo;35,00;25;eletrônica
+332;Fluxo de Solda em Gel;30,00;30;eletrônica
+333;Malha Dessoldadora com Fluxo;25,00;35;eletrônica
+334;Pinça de Cerâmica Anti-estática;60,00;15;eletrônica
+335;Luva Anti-estática para Precisão;70,00;10;segurança
+336;Tapete Anti-estático para Bancada;200,00;5;segurança
+337;Pulseira Anti-estática com Clipe Jacaré;40,00;20;segurança
+338;Ventoinha RGB para Gabinete;60,00;15;componente de hardware
+339;Pasta Térmica de Alto Desempenho;40,00;20;componente de hardware
+340;Fonte Modular ATX 750W 80 Plus Gold;400,00;2;componente de hardware
+341;Adaptador USB-C para DisplayPort;100,00;10;cabo de vídeo
+342;Cabo Mini DisplayPort para HDMI;80,00;12;cabo de vídeo
+343;Adaptador USB para Paralela;90,00;10;conectividade
+344;Hub USB-C com Leitor de Cartões;120,00;8;conectividade
+345;Extensor HDMI via Fibra Óptica;300,00;3;cabo de vídeo
+346;Cabo Óptico Toslink;70,00;15;cabo de áudio
+347;Adaptador P10 para RCA;30,00;25;cabo de áudio
+348;Cabo DVI Dual Link;50,00;20;cabo de vídeo
+349;Placa de Som Externa USB 7.1;150,00;5;periférico de áudio
+350;Microfone Condensador USB Profissional;250,00;3;periférico de áudio
+351;Alto-falante Bluetooth com Rádio e Relógio;300,00;2;áudio portátil
+352;Radio Relógio Despertador com Carregador Sem Fio;180,00;5;áudio
+353;Gravador de Voz com MP3 e Redução de Ruído;280,00;3;áudio
+354;Dock Station para Smartphone com Carregamento Rápido;200,00;4;acessório de smartphone
+355;Carregador de Parede GaN USB-C PD;120,00;8;acessório de smartphone
+356;Capa Teclado para Tablet;150,00;4;acessório de tablet
+357;Película Protetora de Privacidade para Celular;50,00;20;acessório de smartphone
+358;Suporte de Mesa para Celular com Carregamento;60,00;15;acessório de smartphone
+359;Limpador de Tela em Gel;30,00;30;limpeza
+360;Pano de Microfibra Anti-risco;15,00;40;limpeza
+361;Kit de Ferramentas para Reparo de Celular;80,00;15;ferramentas
+362;Lupa de Bancada com Iluminação Circular;250,00;3;eletrônica
+363;Pinça Reta com Ponta Fina Anti-magnética;40,00;20;ferramentas
+364;Kit de Chaves de Fenda de Segurança;60,00;15;ferramentas
+365;Chave de Fenda Philips de Precisão;30,00;25;ferramentas
+366;Estação de Retrabalho Solda e Ar Quente;2000,00;1;eletrônica
+367;Fonte de Alimentação Programável;700,00;1;eletrônica
+368;Gerador de Funções Arbitrárias;1200,00;1;eletrônica
+369;Analisador de Espectro;1500,00;1;eletrônica
+370;Software de Simulação de Circuitos Profissional;300,00;3;software/eletrônica
+371;Kit Raspberry Pi para IoT;250,00;4;robótica/eletrônica
+372;Arduino Mega 2560;80,00;10;robótica/eletrônica
+373;Kit Sensores Avançado para Arduino;120,00;8;robótica/eletrônica
+374;Módulo Relé 4 Canais;40,00;20;eletrônica
+375;Protoboard Grande;30,00;25;eletrônica
+376;Kit de Jumpers M/F e M/M;20,00;30;eletrônica
+377;Kit de LEDs de Alto Brilho;15,00;50;componente eletrônico
+378;Kit de Resistores de Precisão;15,00;50;componente eletrônico
+379;Kit de Capacitores Eletrolíticos;15,00;50;componente eletrônico
+380;Kit de Transistores MOSFET;30,00;30;componente eletrônico
+381;Kit de Diodos Zener;25,00;35;componente eletrônico
+382;Circuitos Integrados Lógicos;40,00;20;componente eletrônico
+383;Motor de Passo de Alta Torque;120,00;10;robótica/eletrônica
+384;Servo Motor de Alta Precisão;80,00;15;robótica/eletrônica
+385;Controlador de Motor DC Shield;180,00;5;robótica/eletrônica
+386;Sensor de Umidade do Solo com Módulo;50,00;15;automação/eletrônica
+387;Sensor de Temperatura e Umidade DHT22;40,00;20;automação/eletrônica
+388;Sensor de Movimento PIR HC-SR501;60,00;15;robótica/eletrônica
+389;Módulo Bluetooth BLE HM-10;80,00;12;conectividade/eletrônica
+390;Módulo Wi-Fi ESP32;60,00;15;conectividade/eletrônica
+391;Display LCD TFT 2.4";90,00;10;eletrônica
+392;Matriz de LEDs RGB Endereçável;120,00;8;eletrônica
+393;Teclado Matricial 4x4;50,00;15;eletrônica
+394;Módulo RTC DS1307;40,00;15;eletrônica
+395;Conversor DC-DC Step Up/Down;40,00;20;eletrônica
+396;Bateria de Lítio Polímero (LiPo);35,00;25;energia
+397;Carregador de Bateria LiPo Balanceador;60,00;15;energia
+398;Painel Solar de Alta Eficiência Pequeno;80,00;12;energia renovável
+399;Módulo de Relé com Optoacoplador;100,00;10;eletrônica
+400;Sensor de Gás MQ-7 (Monóxido de Carbono);90,00;10;segurança/eletrônica
+401;Bomba de Água para Irrigação Inteligente;70,00;15;robótica/eletrônica
+402;Válvula Solenoide AC;120,00;10;automação/eletrônica
+403;Kit de Robô Evitador de Obstáculos;300,00;2;robótica
+404;Kit de Robô Seguidor de Luz;400,00;1;robótica
+405;Robô Humanóide para Estudo;800,00;1;robótica
+406;Impressora de Código de Barras de Alto Volume;1200,00;1;varejo
+407;Software de Gestão de Estoque (Licença);1800,00;1;software
+408;Sistema de Câmeras de Segurança com NVR e 8 Câmeras;2500,00;1;segurança
+409;Câmera de Monitoramento de Bebê com Visão Noturna;500,00;1;segurança
+410;Babá Eletrônica com Tela Grande;800,00;1;segurança
+411;Dispensador Automático de Ração com Câmera;400,00;2;pet
+412;Bebedouro Automático com Filtro UV;300,00;3;pet
+413;Câmera de Vigilância para Pets com Laser;450,00;1;pet
+414;Localizador GPS e Atividade para Pets;350,00;2;pet
+415;Coleira Adestradora Eletrônica;250,00;3;pet
+416;Brinquedo Interativo com Dispensador de Petiscos;180,00;5;pet
+417;Aquário Inteligente com Alimentador;900,00;1;pet
+418;Termostato para Aquário com Alarme;200,00;4;pet
+419;Filtro para Aquário Interno Potente;250,00;3;pet
+420;Iluminação LED RGB para Aquário;220,00;3;pet
+421;Bomba de Ar Silenciosa para Aquário;80,00;15;pet
+422;Aspirador de Fundo para Aquário com Bateria;120,00;10;pet
+423;Kit de Teste de Água para Aquário Completo;90,00;10;pet
+424;Skimmer para Aquário Marinho Protein;400,00;2;pet
+425;Reator de Cálcio com Bomba Dosadora;700,00;1;pet
+426;Controlador de Temperatura para Aquário com Sensor;300,00;2;pet
+427;Máquina de Limpeza de Patas Automática;120,00;5;pet
+428;Secador de Pelos para Pets com Temperatura;400,00;2;pet
+429;Máquina de Tosar Pets Profissional;280,00;3;pet
+430;Cortador de Unhas Elétrico com Luz LED;150,00;5;pet
+431;Fone de Ouvido Infantil com Limitador de Volume;100,00;10;áudio
+432;Tablet Infantil com Controle Parental;500,00;1;infantil
+433;Relógio Inteligente Infantil com Câmera;450,00;2;infantil
+434;Câmera Infantil Digital com Filtros;250,00;3;infantil
+435;Microfone de Karaokê com Bluetooth;180,00;5;infantil
+436;Projetor de Histórias Infantil;200,00;4;infantil
+437;Carrinho de Controle Remoto Todo Terreno;250,00;3;brinquedo
+438;Drone de Controle Remoto para Iniciantes;300,00;2;brinquedo
+439;Barco de Controle Remoto de Alta Velocidade;400,00;2;brinquedo
+440;Robô de Brinquedo Interativo;500,00;1;brinquedo
+441;Carro Elétrico Infantil 12V;1200,00;1;brinquedo
+442;Patinete Elétrico Infantil Dobrável;700,00;1;brinquedo
+443;Hoverboard Off-Road;1800,00;1;mobilidade
+444;Bicicleta Elétrica com Suspensão;3500,00;1;mobilidade
+445;Monociclo Elétrico com Assento;2500,00;1;mobilidade
+446;Skate Elétrico com Controle Remoto;2000,00;1;mobilidade
+447;Patins Elétricos de Três Rodas;1200,00;1;mobilidade
+448;Esteira Ergométrica Profissional;3000,00;1;fitness
+449;Bicicleta Ergométrica Horizontal;1800,00;1;fitness
+450;Elíptico com Display Interativo;2200,00;1;fitness
+451;Aparelho de Musculação com Cargas Eletrônicas;4000,00;1;fitness
+452;Smart Jump Rope (Corda de Pular com App);280,00;3;fitness
+453;Luvas de Boxe com Monitor de Socos;400,00;2;fitness
+454;Raquete de Tênis com Análise de Batida;500,00;1;esporte
+455;Bola de Futebol Inteligente;300,00;2;esporte
+456;Óculos de Natação com Medidor de Distância;350,00;2;esporte
+457;Colete de Natação com Monitor Cardíaco;500,00;1;esporte
+458;Barco Pesqueiro com GPS e Sonar;2500,00;1;pesca
+459;Sonar de Pesca com Tela Colorida;700,00;1;pesca
+460;Drone de Pesca com Isca Automática;1500,00;1;pesca
+461;Vara de Pesca com Alerta de Mordida;800,00;1;pesca
+462;Carretilha Elétrica com Contador de Linha;500,00;1;pesca
+463;Isqueiro Elétrico Plasma Recarregável;120,00;10;acessório
+464;Acendedor de Fogão a Gás Eletrônico;70,00;15;acessório
+465;Máquina de Fazer Pipoca Estilo Retrô;250,00;3;eletrodoméstico
+466;Máquina de Algodão Doce Profissional;350,00;2;eletrodoméstico
+467;Máquina de Fazer Gelo Raspado Comercial;400,00;2;eletrodoméstico
+468;Máquina de Fazer Pizza Forno Elétrico;550,00;1;eletrodoméstico
+469;Panela Elétrica de Fondue com Termostato;200,00;4;eletrodoméstico
+470;Chapa Elétrica Dupla para Lanches;280,00;3;eletrodoméstico
+471;Grill e Sanduicheira com Controle de Temperatura;300,00;2;eletrodoméstico
+472;Mini Forno Elétrico com Convecção;400,00;2;eletrodoméstico
+473;Micro-ondas com Grill e Convecção;600,00;1;eletrodoméstico
+474;Fogão de Indução Dupla Boca;500,00;1;eletrodoméstico
+475;Frigobar com Porta de Vidro;900,00;1;eletrodoméstico
+476;Câmera de Ação 360° à Prova D'água;1200,00;1;fotografia e vídeo
+477;Filmadora Profissional de Cinema;3000,00;1;fotografia e vídeo
+478;Câmera de Segurança com Visão Noturna Colorida;900,00;1;segurança
+479;Mini Câmera de Vigilância Escondida;250,00;3;segurança
+480;Detector de Escutas e Câmeras;200,00;4;segurança
+481;Bloqueador de Sinal Celular/GPS;1800,00;1;segurança
+482;Arma de Choque Elétrica Profissional;700,00;1;segurança pessoal
+483;Spray de Pimenta com Alarme;200,00;4;segurança pessoal
+484;Alarme Pessoal com GPS;120,00;10;segurança pessoal
+485;Apito Eletrônico com Sirene;70,00;15;segurança pessoal
+486;Lanterna com Eletrochoque e Zoom;400,00;2;segurança pessoal
+487;Detector de Metais de Mão;500,00;1;segurança
+488;Raio X de Bagagem Portátil;3500,00;1;segurança
+489;Detector de Substâncias Explosivas;2500,00;1;segurança
+490;Biometria Facial para Portas;900,00;1;segurança
+491;Trava Eletrônica para Gavetas com Alarme;150,00;5;segurança
+492;Sensor de Fumaça e Gás Integrado Wi-Fi;350,00;2;segurança
+493;Câmera de Vigilância Falsa com LED;80,00;15;segurança
+494;Sistema de Iluminação Inteligente com Automação;4000,00;1;automação residencial
+495;Cortinas e Persianas Elétricas Inteligentes;1200,00;1;automação residencial
+496;Fechadura Biometrica Digital com Wi-Fi;1800,00;1;segurança
+497;Câmera de Ação para Esportes Aquáticos;1000,00;1;fotografia e vídeo
+498;Máquina de fazer pipoca grande;3000,00;1;eletrodoméstico
+499;Aspirador de Pó Robô com Limpeza de Água;2500,00;1;eletrodoméstico inteligente
+500;Sensor de Gás - Anomalia no Tipo;NÃO ENCONTRADO;0;sensor
+501;Placa de Rede Wireless-AC 1750;NÃO ENCONTRADO;5;rede e conectividade
+502;Kit de Ferramentas de Rede Completo;NÃO ENCONTRADO;2;ferramentas
+503;Teste de Cabo de Rede Profissional;NÃO ENCONTRADO;1;ferramentas
+504;Câmera de Segurança - Anomalia de Preço;-100.00;1;segurança
+505;Tablet - Anomalia de Descrição;1000,00;1;NÃO ENCONTRADO
+506;Fone de Ouvido com Microfone USB;NÃO ENCONTRADO;5;periférico de áudio
+507;Impressora - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;periférico de impressão
+508;SSD Externo - Anomalia de Preço;-200.00;1;armazenamento externo
+509;Monitor - Anomalia de Categoria;NÃO ENCONTRADO;1;NÃO ENCONTRADO
+510;Webcam - Anomalia no ID;NÃO ENCONTRADO;129,90;2;periférico de vídeo
+511;Nobreak - Anomalia de Nome;NÃO ENCONTRADO;500,00;1;energia
+512;Roteador - Anomalia de Marca;NÃO ENCONTRADO;250,00;5;rede e conectividade
+513;Cabo USB - Anomalia de Preço;-10.00;10;cabo de dados
+514;Mouse - Anomalia de Categoria;NÃO ENCONTRADO;50,00;2;NÃO ENCONTRADO
+515;Teclado - Anomalia de ID;NÃO ENCONTRADO;89,90;3;periférico de entrada
+516;Headset - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;periférico de áudio
+517;Pendrive - Anomalia de Descrição;NÃO ENCONTRADO;29,90;10;NÃO ENCONTRADO
+518;Smartwatch - Anomalia de Preço;-150.00;1;wearable
+519;Câmera de Ação - Anomalia de Categoria;NÃO ENCONTRADO;800,00;1;NÃO ENCONTRADO
+520;Drone - Anomalia de Nome;NÃO ENCONTRADO;1500,00;1;veículo aéreo
+521;Projetor - Anomalia de ID;NÃO ENCONTRADO;1200,00;1;acessório de vídeo
+522;Console - Anomalia de Preço;-500.00;1;entretenimento
+523;Microfone - Anomalia de Categoria;NÃO ENCONTRADO;200,00;3;NÃO ENCONTRADO
+524;Scanner - Anomalia de Descrição;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+525;Impressora 3D - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;fabricação digital
+526;Termostato - Anomalia de Preço;-50.00;1;automação residencial
+527;Lâmpada Inteligente - Anomalia de Categoria;NÃO ENCONTRADO;50,00;5;NÃO ENCONTRADO
+528;Robô Aspirador - Anomalia de Nome;NÃO ENCONTRADO;1000,00;1;eletrodoméstico inteligente
+529;HD Externo - Anomalia de ID;NÃO ENCONTRADO;300,00;2;armazenamento externo
+530;Placa-mãe - Anomalia de Preço;-300.00;1;componente de hardware
+531;Memória RAM - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+532;Processador - Anomalia de Descrição;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+533;Fonte de Alimentação - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;componente de hardware
+534;Gabinete - Anomalia de Preço;-100.00;1;componente de hardware
+535;Sistema de Som - Anomalia de Categoria;NÃO ENCONTRADO;2000,00;1;NÃO ENCONTRADO
+536;Óculos VR - Anomalia de Nome;NÃO ENCONTRADO;1000,00;1;entretenimento imersivo
+537;Barra de Som - Anomalia de ID;NÃO ENCONTRADO;600,00;1;áudio
+538;Câmera de Segurança - Anomalia de Preço;-150.00;2;segurança
+539;Fechadura Eletrônica - Anomalia de Descrição;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+540;Televisor Portátil - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;entretenimento
+541;Monitor Curvo - Anomalia de Preço;-400.00;1;acessório de vídeo
+542;Adaptador Bluetooth - Anomalia de Categoria;NÃO ENCONTRADO;30,00;10;NÃO ENCONTRADO
+543;Cartão de Memória - Anomalia de ID;NÃO ENCONTRADO;40,00;15;armazenamento
+544;Power Bank - Anomalia de Preço;-50.00;8;energia portátil
+545;Mini Projetor - Anomalia de Descrição;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+546;Repetidor Wi-Fi - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;rede e conectividade
+547;Central Multimídia - Anomalia de Preço;-300.00;1;entretenimento automotivo
+548;Fone Condução Óssea - Anomalia de Categoria;NÃO ENCONTRADO;300,00;3;NÃO ENCONTRADO
+549;Carregador Sem Fio - Anomalia de ID;NÃO ENCONTRADO;70,00;5;acessório de energia
+550;Leitor de Cartões - Anomalia de Preço;-20.00;20;acessório de leitura
+551;Cabo HDMI - Anomalia de Descrição;NÃO ENCONTRADO;30,00;15;NÃO ENCONTRADO
+552;Cabo USB-C - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;cabo de dados
+553;Adaptador USB Ethernet - Anomalia de Preço;-40.00;10;conectividade
+554;Webcam 4K - Anomalia de Categoria;NÃO ENCONTRADO;350,00;1;NÃO ENCONTRADO
+555;Impressora Térmica - Anomalia de ID;NÃO ENCONTRADO;200,00;2;periférico de impressão
+556;Cortina Inteligente - Anomalia de Preço;-200.00;1;automação residencial
+557;Espelho Inteligente - Anomalia de Descrição;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+558;Purificador de Ar - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico inteligente
+559;Câmera de Ação 4K - Anomalia de Preço;-300.00;1;fotografia e vídeo
+560;Gimbal para Celular - Anomalia de Categoria;NÃO ENCONTRADO;400,00;2;NÃO ENCONTRADO
+561;Iluminador LED - Anomalia de ID;NÃO ENCONTRADO;100,00;5;acessório de vídeo
+562;Lente Smartphone - Anomalia de Preço;-30.00;10;acessório de fotografia
+563;Tripé Câmera - Anomalia de Descrição;NÃO ENCONTRADO;80,00;5;NÃO ENCONTRADO
+564;Microfone Lapela - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;periférico de áudio
+565;Placa de Captura - Anomalia de Preço;-200.00;2;componente de hardware
+566;Mesa de Som - Anomalia de Categoria;NÃO ENCONTRADO;2000,00;1;NÃO ENCONTRADO
+567;Interface de Áudio - Anomalia de ID;NÃO ENCONTRADO;350,00;2;áudio profissional
+568;Fones Monitoramento - Anomalia de Preço;-200.00;1;áudio profissional
+569;Controlador MIDI - Anomalia de Descrição;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+570;Sintetizador - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;áudio profissional
+571;Guitarra Elétrica Digital - Anomalia de Preço;-400.00;1;instrumento musical eletrônico
+572;Bateria Eletrônica - Anomalia de Categoria;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+573;Pedaleira - Anomalia de ID;NÃO ENCONTRADO;700,00;1;instrumento musical eletrônico
+574;Controlador DJ - Anomalia de Preço;-500.00;1;áudio profissional
+575;Mixer Áudio - Anomalia de Descrição;NÃO ENCONTRADO;500,00;2;NÃO ENCONTRADO
+576;Amplificador Guitarra - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;áudio profissional
+577;Fone Bluetooth Esportivo - Anomalia de Preço;-50.00;5;periférico de áudio
+578;Pulseira Fitness - Anomalia de Categoria;NÃO ENCONTRADO;200,00;3;NÃO ENCONTRADO
+579;Balança Bioimpedância - Anomalia de ID;NÃO ENCONTRADO;180,00;2;saúde e bem-estar
+580;Medidor Pressão - Anomalia de Preço;-40.00;3;saúde e bem-estar
+581;Termômetro Digital - Anomalia de Descrição;NÃO ENCONTRADO;70,00;5;NÃO ENCONTRADO
+582;Massageador Elétrico - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;saúde e bem-estar
+583;Escova Elétrica - Anomalia de Preço;-60.00;3;saúde e bem-estar
+584;Aparador Pelos - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+585;Secador Cabelo Profissional - Anomalia de ID;NÃO ENCONTRADO;200,00;2;cuidados pessoais
+586;Chapinha Cabelo - Anomalia de Preço;-50.00;3;cuidados pessoais
+587;Máquina Cortar Cabelo - Anomalia de Descrição;NÃO ENCONTRADO;90,00;4;NÃO ENCONTRADO
+588;Barbeador Elétrico - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;cuidados pessoais
+589;Cafeteira Inteligente - Anomalia de Preço;-200.00;1;eletrodoméstico inteligente
+590;Chaleira Inteligente - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+591;Torradeira Inteligente - Anomalia de ID;NÃO ENCONTRADO;250,00;2;eletrodoméstico inteligente
+592;Liquidificador Inteligente - Anomalia de Preço;-100.00;1;eletrodoméstico inteligente
+593;Forno Elétrico Inteligente - Anomalia de Descrição;NÃO ENCONTRADO;1000,00;1;NÃO ENCONTRADO
+594;Geladeira Smart - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico inteligente
+595;Máquina Lavar Smart - Anomalia de Preço;-1000.00;1;eletrodoméstico inteligente
+596;Cooktop Indução - Anomalia de Categoria;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+597;Exaustor Inteligente - Anomalia de ID;NÃO ENCONTRADO;700,00;1;eletrodoméstico inteligente
+598;Lava-louças Inteligente - Anomalia de Preço;-800.00;1;eletrodoméstico inteligente
+599;Robô Limpador Janelas - Anomalia de Descrição;NÃO ENCONTRADO;750,00;1;NÃO ENCONTRADO
+600;Câmera Veicular - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;automotivo
+601;Sensor Estacionamento - Anomalia de Preço;-50.00;5;automotivo
+602;Câmera de Ré - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+603;Sistema de Alarme Automotivo - Anomalia de ID;NÃO ENCONTRADO;300,00;2;automotivo
+604;Rastreador Veicular - Anomalia de Preço;-100.00;3;automotivo
+605;Pneu Inteligente - Anomalia de Descrição;NÃO ENCONTRADO;600,00;4;NÃO ENCONTRADO
+606;Bateria Automotiva Inteligente - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;automotivo
+607;Kit Faróis LED - Anomalia de Preço;-80.00;4;automotivo
+608;Central Multimídia - Anomalia de Categoria;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+609;Carregador Bateria Automotiva - Anomalia de ID;NÃO ENCONTRADO;100,00;5;automotivo
+610;Ferro de Passar Inteligente - Anomalia de Preço;-50.00;2;eletrodoméstico
+611;Vaporizador Roupa - Anomalia de Descrição;NÃO ENCONTRADO;250,00;2;NÃO ENCONTRADO
+612;Aspirador Vertical - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+613;Enceradeira Elétrica - Anomalia de Preço;-100.00;2;eletrodoméstico
+614;Máquina de Costura Eletrônica - Anomalia de Categoria;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+615;Micro-ondas com Grill - Anomalia de ID;NÃO ENCONTRADO;500,00;1;eletrodoméstico
+616;Air Fryer Digital - Anomalia de Preço;-150.00;1;eletrodoméstico
+617;Batedeira Planetária - Anomalia de Descrição;NÃO ENCONTRADO;350,00;1;NÃO ENCONTRADO
+618;Processador de Alimentos - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+619;Máquina de Pão - Anomalia de Preço;-150.00;1;eletrodoméstico
+620;Panela Pressão Elétrica - Anomalia de Categoria;NÃO ENCONTRADO;280,00;1;NÃO ENCONTRADO
+621;Grill Elétrico - Anomalia de ID;NÃO ENCONTRADO;180,00;2;eletrodoméstico
+622;Sanduicheira Elétrica - Anomalia de Preço;-30.00;3;eletrodoméstico
+623;Espremedor Frutas Elétrico - Anomalia de Descrição;NÃO ENCONTRADO;70,00;5;NÃO ENCONTRADO
+624;Liquidificador Portátil - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+625;Máquina de Gelo Portátil - Anomalia de Preço;-200.00;1;eletrodoméstico
+626;Adega Climatizada - Anomalia de Categoria;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+627;Frigobar - Anomalia de ID;NÃO ENCONTRADO;500,00;1;eletrodoméstico
+628;Bebedouro Elétrico - Anomalia de Preço;-80.00;2;eletrodoméstico
+629;Chuveiro Elétrico Digital - Anomalia de Descrição;NÃO ENCONTRADO;200,00;3;NÃO ENCONTRADO
+630;Aquecedor Ambiente - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+631;Umidificador Ar - Anomalia de Preço;-50.00;3;eletrodoméstico
+632;Desumidificador Ar - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+633;Ar Condicionado Portátil - Anomalia de ID;NÃO ENCONTRADO;1200,00;1;eletrodoméstico
+634;Ventilador Teto - Anomalia de Preço;-100.00;2;eletrodoméstico
+635;Ventilador Mesa - Anomalia de Descrição;NÃO ENCONTRADO;100,00;5;NÃO ENCONTRADO
+636;Exaustor Cozinha - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+637;Triturador Lixo - Anomalia de Preço;-150.00;1;eletrodoméstico
+638;Secadora Roupas - Anomalia de Categoria;NÃO ENCONTRADO;2000,00;1;NÃO ENCONTRADO
+639;Máquina Lavar Louça - Anomalia de ID;NÃO ENCONTRADO;1500,00;1;eletrodoméstico
+640;Abridor Lata Elétrico - Anomalia de Preço;-20.00;5;eletrodoméstico
+641;Balancinha Digital - Anomalia de Descrição;NÃO ENCONTRADO;50,00;10;NÃO ENCONTRADO
+642;Termômetro Forno - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+643;Temporizador Cozinha - Anomalia de Preço;-10.00;20;eletrodoméstico
+644;Fritadeira Sem Óleo - Anomalia de Categoria;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+645;Panela Arroz Elétrica - Anomalia de ID;NÃO ENCONTRADO;150,00;3;eletrodoméstico
+646;Omeleteira Elétrica - Anomalia de Preço;-20.00;5;eletrodoméstico
+647;Crepeira Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;90,00;4;NÃO ENCONTRADO
+648;Máquina de Waffles - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+649;Mini Geladeira Portátil - Anomalia de Preço;-80.00;2;eletrodoméstico
+650;Câmera Segurança Externa - Anomalia de Categoria;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+651;Sensor Movimento Inteligente - Anomalia de ID;NÃO ENCONTRADO;100,00;3;segurança
+652;Sensor Abertura Portas - Anomalia de Preço;-30.00;4;segurança
+653;Alarme Residencial Monitorado - Anomalia de Descrição;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+654;Sirene Alarme Externa - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;segurança
+655;Câmera IP Interna - Anomalia de Preço;-80.00;2;segurança
+656;Videoporteiro Inteligente - Anomalia de Categoria;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+657;Campainha Inteligente - Anomalia de ID;NÃO ENCONTRADO;300,00;1;segurança
+658;Detector Fumaça Inteligente - Anomalia de Preço;-50.00;3;segurança
+659;Detector Vazamento Gás - Anomalia de Descrição;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+660;Sensor Inundação - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;segurança
+661;Central Automação Residencial - Anomalia de Preço;-400.00;1;automação residencial
+662;Tomada Inteligente - Anomalia de Categoria;NÃO ENCONTRADO;70,00;5;NÃO ENCONTRADO
+663;Interruptor Inteligente - Anomalia de ID;NÃO ENCONTRADO;90,00;4;automação residencial
+664;Controle Universal IR - Anomalia de Preço;-40.00;3;automação residencial
+665;Câmera Panorâmica 360° - Anomalia de Descrição;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+666;Drone Vigilância - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;segurança
+667;Refletor Inteligente - Anomalia de Preço;-150.00;1;segurança
+668;DVR/NVR Câmeras - Anomalia de Categoria;NÃO ENCONTRADO;700,00;1;NÃO ENCONTRADO
+669;Bateria para Nobreak - Anomalia de ID;NÃO ENCONTRADO;180,00;2;energia
+670;Filtro de Linha USB - Anomalia de Preço;-20.00;10;energia
+671;Adaptador Tomada Universal - Anomalia de Descrição;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+672;Fonte para Notebook - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;energia
+673;Carregador Portátil Notebook - Anomalia de Preço;-100.00;2;energia portátil
+674;Inversor Corrente Automotivo - Anomalia de Categoria;NÃO ENCONTRADO;120,00;3;NÃO ENCONTRADO
+675;Kit Painel Solar Portátil - Anomalia de ID;NÃO ENCONTRADO;600,00;1;energia renovável
+676;Controlador Carga Solar - Anomalia de Preço;-50.00;2;energia renovável
+677;Bateria Estacionária Solar - Anomalia de Descrição;NÃO ENCONTRADO;1000,00;1;NÃO ENCONTRADO
+678;Iluminação Solar Jardim - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;energia renovável
+679;Lanterna Tática - Anomalia de Preço;-40.00;4;iluminação
+680;Luminária Mesa Carregador - Anomalia de Categoria;NÃO ENCONTRADO;120,00;3;NÃO ENCONTRADO
+681;Fita LED RGB Inteligente - Anomalia de ID;NÃO ENCONTRADO;90,00;5;iluminação inteligente
+682;Projetor Luz Noturna - Anomalia de Preço;-20.00;8;iluminação
+683;Lâmpada UV Esterilização - Anomalia de Descrição;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+684;Umidade Temperatura Inteligente - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;automação residencial
+685;Sensor Fumaça CO - Anomalia de Preço;-80.00;2;segurança
+686;Estação Meteorológica Doméstica - Anomalia de Categoria;NÃO ENCONTRADO;250,00;1;NÃO ENCONTRADO
+687;Cadeado Inteligente Bluetooth - Anomalia de ID;NÃO ENCONTRADO;120,00;3;segurança
+688;Cofre Eletrônico Digital - Anomalia de Preço;-200.00;1;segurança
+689;Destruidora Papel Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+690;Calculadora Científica - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;escritório
+691;Gravador Voz Digital - Anomalia de Preço;-50.00;3;escritório
+692;Etiquetadora Eletrônica - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+693;Laminadora Documentos - Anomalia de ID;NÃO ENCONTRADO;150,00;2;escritório
+694;Projetor Interativo - Anomalia de Preço;-1000.00;1;educação/negócios
+695;Tela Projeção Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;700,00;1;NÃO ENCONTRADO
+696;Sistema Videoconferência - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;negócios
+697;Telefone IP - Anomalia de Preço;-100.00;2;comunicação
+698;Sistema Ponto Eletrônico - Anomalia de Categoria;NÃO ENCONTRADO;1000,00;1;NÃO ENCONTRADO
+699;Impressora Etiquetas Térmica - Anomalia de ID;NÃO ENCONTRADO;300,00;1;escritório
+700;Leitor Código Barras - Anomalia de Preço;-80.00;2;varejo
+701;Gaveta Dinheiro Eletrônica - Anomalia de Descrição;NÃO ENCONTRADO;100,00;3;NÃO ENCONTRADO
+702;Impressora Fiscal - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;varejo
+703;Máquina Cartão Crédito - Anomalia de Preço;-100.00;2;varejo
+704;Impressora Cheques - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+705;Cortador Papel Automático - Anomalia de ID;NÃO ENCONTRADO;600,00;1;escritório
+706;Guilhotina Elétrica - Anomalia de Preço;-150.00;2;escritório
+707;Encadernadora Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;250,00;2;NÃO ENCONTRADO
+708;Perfuradora Papel Elétrica - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;escritório
+709;Relógio Ponto Biométrico - Anomalia de Preço;-300.00;1;negócios
+710;Máquina Contar Cédulas - Anomalia de Categoria;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+711;Máquina Contar Moedas - Anomalia de ID;NÃO ENCONTRADO;600,00;1;negócios
+712;Detector Cédulas Falsas - Anomalia de Preço;-50.00;2;negócios
+713;Scanner Cheques - Anomalia de Descrição;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+714;Destruidora CD/DVD - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;escritório
+715;Luminária Emergência - Anomalia de Preço;-30.00;8;iluminação
+716;Refletor LED Obra - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+717;Lanterna Cabeça - Anomalia de ID;NÃO ENCONTRADO;50,00;10;iluminação
+718;Pistola Cola Quente - Anomalia de Preço;-20.00;5;ferramentas
+719;Parafusadeira Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;120,00;3;NÃO ENCONTRADO
+720;Furadeira Impacto - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;ferramentas
+721;Serra Tico-Tico - Anomalia de Preço;-100.00;2;ferramentas
+722;Lixadeira Elétrica - Anomalia de Categoria;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+723;Multímetro Digital - Anomalia de ID;NÃO ENCONTRADO;90,00;5;ferramentas
+724;Alicate Amperímetro - Anomalia de Preço;-80.00;2;ferramentas
+725;Medidor Distância Laser - Anomalia de Descrição;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+726;Nível a Laser - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;ferramentas
+727;Câmera Termográfica - Anomalia de Preço;-800.00;1;ferramentas
+728;Endoscópio Industrial - Anomalia de Categoria;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+729;Gerador Energia Portátil - Anomalia de ID;NÃO ENCONTRADO;1200,00;1;energia
+730;Fonte Alimentação Bancada - Anomalia de Preço;-300.00;1;eletrônica
+731;Osciloscópio Digital - Anomalia de Descrição;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+732;Ferro Solda - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrônica
+733;Estação Solda - Anomalia de Preço;-100.00;2;eletrônica
+734;Kit Ferramentas Eletrônica - Anomalia de Categoria;NÃO ENCONTRADO;70,00;5;NÃO ENCONTRADO
+735;Multímetro Automotivo - Anomalia de ID;NÃO ENCONTRADO;120,00;3;automotivo/ferramentas
+736;Scanner OBD2 - Anomalia de Preço;-80.00;2;automotivo/ferramentas
+737;Carregador Bateria Inteligente - Anomalia de Descrição;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+738;Testador Bateria Automotiva - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;automotivo
+739;Calibrador Pneus - Anomalia de Preço;-20.00;10;automotivo
+740;Compressor Ar Portátil - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+741;Bomba Água Submersa - Anomalia de ID;NÃO ENCONTRADO;250,00;2;jardinagem
+742;Aparador Grama Elétrico - Anomalia de Preço;-100.00;1;jardinagem
+743;Soprador Folhas Elétrico - Anomalia de Descrição;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+744;Cortador Cerca Viva - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;jardinagem
+745;Motosserra Elétrica - Anomalia de Preço;-150.00;1;jardinagem
+746;Lavadora Alta Pressão - Anomalia de Categoria;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+747;Aspirador Pó Água - Anomalia de ID;NÃO ENCONTRADO;350,00;1;limpeza
+748;Máquina Limpeza Vapor - Anomalia de Preço;-100.00;1;limpeza
+749;Robô Limpador Piscinas - Anomalia de Descrição;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+750;Máquina Café Espresso - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+751;Moedor Café Elétrico - Anomalia de Preço;-50.00;3;eletrodoméstico
+752;Leiteira Elétrica - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+753;Máquina Fazer Sorvete - Anomalia de ID;NÃO ENCONTRADO;250,00;2;eletrodoméstico
+754;Máquina Gelo Cubos - Anomalia de Preço;-300.00;1;eletrodoméstico
+755;Adegas para Vinhos - Anomalia de Descrição;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+756;Cervejeira Elétrica - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+757;Máquina Costura Portátil - Anomalia de Preço;-100.00;2;eletrodoméstico
+758;Máquina Bordar - Anomalia de Categoria;NÃO ENCONTRADO;1500,00;1;NÃO ENCONTRADO
+759;Máquina Overlock - Anomalia de ID;NÃO ENCONTRADO;800,00;1;eletrodoméstico
+760;Máquina Tricotar Elétrica - Anomalia de Preço;-200.00;1;eletrodoméstico
+761;Impressora Fotos Portátil - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+762;Câmera Instantânea - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;fotografia
+763;Filmadora Compacta - Anomalia de Preço;-250.00;1;fotografia e vídeo
+764;Iluminador LED Fotos - Anomalia de Categoria;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+765;Softbox Estúdio - Anomalia de ID;NÃO ENCONTRADO;200,00;2;fotografia
+766;Fundo Infinito Fotografia - Anomalia de Preço;-50.00;4;fotografia
+767;Tripé Iluminação - Anomalia de Descrição;NÃO ENCONTRADO;70,00;5;NÃO ENCONTRADO
+768;Disparador Remoto Câmera - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;fotografia
+769;Flash Externo Câmera - Anomalia de Preço;-100.00;2;fotografia
+770;Gatilho Flash sem Fio - Anomalia de Categoria;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+771;Rebatedor Luz - Anomalia de ID;NÃO ENCONTRADO;30,00;15;fotografia
+772;Mochila Câmera - Anomalia de Preço;-80.00;3;acessório de fotografia
+773;Bolsa Lente - Anomalia de Descrição;NÃO ENCONTRADO;60,00;10;NÃO ENCONTRADO
+774;Kit Limpeza Câmera - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;acessório de fotografia
+775;Protetor Tela Câmera - Anomalia de Preço;-10.00;25;acessório de fotografia
+776;Bateria Extra Câmera - Anomalia de Categoria;NÃO ENCONTRADO;90,00;5;NÃO ENCONTRADO
+777;Carregador Bateria Câmera - Anomalia de ID;NÃO ENCONTRADO;70,00;8;acessório de fotografia
+778;Adaptador Lente - Anomalia de Preço;-80.00;2;acessório de fotografia
+779;Telefone Sem Fio - Anomalia de Descrição;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+780;Secretária Eletrônica - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;comunicação
+781;Fax Eletrônico - Anomalia de Preço;-100.00;2;comunicação
+782;Rádio Comunicador - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+783;Central Telefônica PABX - Anomalia de ID;NÃO ENCONTRADO;1200,00;1;comunicação
+784;Interfone Sem Fio - Anomalia de Preço;-100.00;2;comunicação
+785;Sistema Teleconferência - Anomalia de Descrição;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+786;Rádio Portátil AM/FM - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;áudio
+787;Gravador CD/DVD Externo - Anomalia de Preço;-50.00;4;armazenamento
+788;Dock Station HD - Anomalia de Categoria;NÃO ENCONTRADO;80,00;5;NÃO ENCONTRADO
+789;Case HD Externo - Anomalia de ID;NÃO ENCONTRADO;40,00;10;acessório de armazenamento
+790;Leitor Blu-Ray Externo - Anomalia de Preço;-80.00;3;entretenimento
+791;Drive CD/DVD Externo - Anomalia de Descrição;NÃO ENCONTRADO;60,00;8;NÃO ENCONTRADO
+792;Adaptador USB Wi-Fi - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;conectividade
+793;Placa Rede Gigabit - Anomalia de Preço;-30.00;8;conectividade
+794;Switch Rede 8 Portas - Anomalia de Categoria;NÃO ENCONTRADO;100,00;5;NÃO ENCONTRADO
+795;Rack Servidor - Anomalia de ID;NÃO ENCONTRADO;400,00;1;rede e conectividade
+796;Nobreak Senoidal - Anomalia de Preço;-300.00;1;energia
+797;Estabilizador Voltagem - Anomalia de Descrição;NÃO ENCONTRADO;90,00;5;NÃO ENCONTRADO
+798;Transformador Voltagem - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;energia
+799;Gerador Ozônio - Anomalia de Preço;-100.00;2;saúde e bem-estar
+800;Aparelho Jato Água Dental - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+801;Lupa Eletrônica - Anomalia de ID;NÃO ENCONTRADO;100,00;4;ferramentas
+802;Testador Cabos Rede - Anomalia de Preço;-20.00;8;ferramentas
+803;Kit Limpeza Eletrônicos - Anomalia de Descrição;NÃO ENCONTRADO;40,00;15;NÃO ENCONTRADO
+804;Spray Limpa Contato - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;limpeza
+805;Ventilador Coluna Inteligente - Anomalia de Preço;-80.00;2;eletrodoméstico
+806;Climatizador Ar Evaporativo - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+807;Adega Vinhos Duas Zonas - Anomalia de ID;NÃO ENCONTRADO;2000,00;1;eletrodoméstico
+808;Cervejeira Portátil - Anomalia de Preço;-200.00;1;eletrodoméstico
+809;Máquina Costura Computadorizada - Anomalia de Descrição;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+810;Forninho Elétrico Air Fryer - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+811;Máquina Café Cápsulas - Anomalia de Preço;-100.00;2;eletrodoméstico
+812;Cabo Rede Cat6 - Anomalia de Categoria;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+813;Conector RJ45 - Anomalia de ID;NÃO ENCONTRADO;4,00;50;componente de rede
+814;Crimpador Cabo Rede - Anomalia de Preço;-20.00;10;ferramentas
+815;Testador Bateria 9V - Anomalia de Descrição;NÃO ENCONTRADO;15,00;30;NÃO ENCONTRADO
+816;Alicate Bico Fino - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;ferramentas
+817;Chave Phillips - Anomalia de Preço;-5.00;20;ferramentas
+818;Estilete Retrátil - Anomalia de Categoria;NÃO ENCONTRADO;10,00;30;NÃO ENCONTRADO
+819;Pinça Precisão - Anomalia de ID;NÃO ENCONTRADO;15,00;25;ferramentas
+820;Conjunto Chaves Precisão - Anomalia de Preço;-20.00;10;ferramentas
+821;Fita Isolante - Anomalia de Descrição;NÃO ENCONTRADO;8,00;40;NÃO ENCONTRADO
+822;Braçadeira Nylon - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;material elétrico
+823;Terminais Elétricos - Anomalia de Preço;-10.00;20;material elétrico
+824;Prensa Terminal - Anomalia de Categoria;NÃO ENCONTRADO;80,00;5;NÃO ENCONTRADO
+825;Descascador Fio - Anomalia de ID;NÃO ENCONTRADO;40,00;15;ferramentas
+826;Kit Solda Básico - Anomalia de Preço;-20.00;10;eletrônica
+827;Sugador Solda - Anomalia de Descrição;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+828;Estanho Solda - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrônica
+829;Fluxo Solda - Anomalia de Preço;-5.00;30;eletrônica
+830;Malha Dessoldadora - Anomalia de Categoria;NÃO ENCONTRADO;10,00;35;NÃO ENCONTRADO
+831;Pinça Anti-estática - Anomalia de ID;NÃO ENCONTRADO;30,00;15;eletrônica
+832;Luva Anti-estática - Anomalia de Preço;-10.00;10;segurança
+833;Tapete Anti-estático - Anomalia de Descrição;NÃO ENCONTRADO;100,00;5;NÃO ENCONTRADO
+834;Pulseira Anti-estática - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;segurança
+835;Ventoinha Gabinete - Anomalia de Preço;-10.00;15;componente de hardware
+836;Pasta Térmica - Anomalia de Categoria;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+837;Fonte ATX 500W - Anomalia de ID;NÃO ENCONTRADO;200,00;2;componente de hardware
+838;Adaptador DisplayPort - Anomalia de Preço;-30.00;10;cabo de vídeo
+839;Cabo DVI VGA - Anomalia de Descrição;NÃO ENCONTRADO;50,00;12;NÃO ENCONTRADO
+840;Adaptador USB Serial - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;conectividade
+841;Hub USB 3.0 - Anomalia de Preço;-20.00;8;conectividade
+842;Extensor HDMI - Anomalia de Categoria;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+843;Cabo Óptico Áudio - Anomalia de ID;NÃO ENCONTRADO;40,00;15;cabo de áudio
+844;Adaptador P2 RCA - Anomalia de Preço;-5.00;25;cabo de áudio
+845;Cabo VGA - Anomalia de Descrição;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+846;Placa Som USB - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;periférico de áudio
+847;Microfone USB - Anomalia de Preço;-50.00;3;periférico de áudio
+848;Alto-falante Bluetooth Rádio - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+849;Radio Relógio Despertador - Anomalia de ID;NÃO ENCONTRADO;90,00;5;áudio
+850;Gravador Voz MP3 - Anomalia de Preço;-50.00;3;áudio
+851;Dock Station Smartphone - Anomalia de Descrição;NÃO ENCONTRADO;100,00;4;NÃO ENCONTRADO
+852;Carregador Parede USB-C - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;acessório de smartphone
+853;Capa Protetora Tablet - Anomalia de Preço;-20.00;10;acessório de tablet
+854;Película Protetora Celular - Anomalia de Categoria;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+855;Suporte Veicular Celular - Anomalia de ID;NÃO ENCONTRADO;30,00;15;acessório de smartphone
+856;Limpador Tela Líquido - Anomalia de Preço;-5.00;30;limpeza
+857;Pano Microfibra - Anomalia de Descrição;NÃO ENCONTRADO;8,00;40;NÃO ENCONTRADO
+858;Kit Ferramentas Celular - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;ferramentas
+859;Lupa Bancada LED - Anomalia de Preço;-50.00;3;eletrônica
+860;Pinça Reta Anti-magnética - Anomalia de Categoria;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+861;Kit Chaves Torx - Anomalia de ID;NÃO ENCONTRADO;30,00;15;ferramentas
+862;Chave Fenda Precisão - Anomalia de Preço;-5.00;25;ferramentas
+863;Estação Retrabalho BGA - Anomalia de Descrição;NÃO ENCONTRADO;1000,00;1;NÃO ENCONTRADO
+864;Fonte Alimentação Ajustável - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrônica
+865;Gerador Funções - Anomalia de Preço;-300.00;1;eletrônica
+866;Analisador Lógico - Anomalia de Categoria;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+867;Simulador Circuitos - Anomalia de ID;NÃO ENCONTRADO;150,00;3;software/eletrônica
+868;Kit Arduino Iniciante - Anomalia de Preço;-50.00;4;robótica/eletrônica
+869;Raspberry Pi 4 - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+870;Kit Sensores Arduino - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;robótica/eletrônica
+871;Módulo Relé - Anomalia de Preço;-10.00;20;eletrônica
+872;Protoboard - Anomalia de Categoria;NÃO ENCONTRADO;15,00;25;NÃO ENCONTRADO
+873;Jumpers Protoboard - Anomalia de ID;NÃO ENCONTRADO;10,00;30;eletrônica
+874;LEDs Sortidos - Anomalia de Preço;-2.00;50;componente eletrônico
+875;Resistores Sortidos - Anomalia de Descrição;NÃO ENCONTRADO;8,00;50;NÃO ENCONTRADO
+876;Capacitores Sortidos - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;componente eletrônico
+877;Transistores Sortidos - Anomalia de Preço;-5.00;30;componente eletrônico
+878;Diodos Sortidos - Anomalia de Categoria;NÃO ENCONTRADO;10,00;35;NÃO ENCONTRADO
+879;Circuitos Integrados Básicos - Anomalia de ID;NÃO ENCONTRADO;20,00;20;componente eletrônico
+880;Motor Passo - Anomalia de Preço;-30.00;10;robótica/eletrônica
+881;Servo Motor - Anomalia de Descrição;NÃO ENCONTRADO;40,00;15;NÃO ENCONTRADO
+882;Controlador Motor - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;robótica/eletrônica
+883;Sensor Umidade Solo - Anomalia de Preço;-10.00;15;automação/eletrônica
+884;Sensor Temperatura Umidade - Anomalia de Categoria;NÃO ENCONTRADO;20,00;20;NÃO ENCONTRADO
+885;Sensor Ultrassônico - Anomalia de ID;NÃO ENCONTRADO;40,00;15;robótica/eletrônica
+886;Módulo Bluetooth HC-05 - Anomalia de Preço;-20.00;12;conectividade/eletrônica
+887;Módulo Wi-Fi ESP8266 - Anomalia de Descrição;NÃO ENCONTRADO;30,00;15;NÃO ENCONTRADO
+888;Display LCD 16x2 - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrônica
+889;Matriz LEDs 8x8 - Anomalia de Preço;-30.00;8;eletrônica
+890;Teclado Membrana - Anomalia de Categoria;NÃO ENCONTRADO;30,00;15;NÃO ENCONTRADO
+891;Módulo RTC DS3231 - Anomalia de ID;NÃO ENCONTRADO;40,00;15;eletrônica
+892;Conversor DC-DC Step Down - Anomalia de Preço;-10.00;20;eletrônica
+893;Bateria Lítio 18650 - Anomalia de Descrição;NÃO ENCONTRADO;20,00;25;NÃO ENCONTRADO
+894;Carregador Bateria Lítio - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;energia
+895;Placa Solar Pequena - Anomalia de Preço;-20.00;12;energia renovável
+896;Módulo Relé Estado Sólido - Anomalia de Categoria;NÃO ENCONTRADO;60,00;10;NÃO ENCONTRADO
+897;Sensor Gás MQ-2 - Anomalia de ID;NÃO ENCONTRADO;50,00;10;segurança/eletrônica
+898;Bomba Água Arduino - Anomalia de Preço;-20.00;15;robótica/eletrônica
+899;Válvula Solenoide DC - Anomalia de Descrição;NÃO ENCONTRADO;60,00;10;NÃO ENCONTRADO
+900;Kit Robô Seguidor Linha - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;robótica
+901;Kit Robô Sumô - Anomalia de Preço;-100.00;1;robótica
+902;Braço Robótico - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+903;Impressora Código Barras - Anomalia de ID;NÃO ENCONTRADO;600,00;1;varejo
+904;Software Ponto Venda - Anomalia de Preço;-400.00;1;software
+905;Sistema Câmeras Segurança Wi-Fi - Anomalia de Descrição;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+906;Câmera Monitoramento Bebê - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;segurança
+907;Babá Eletrônica Vídeo - Anomalia de Preço;-200.00;1;segurança
+908;Dispensador Ração Automático - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+909;Bebedouro Automático Pets - Anomalia de ID;NÃO ENCONTRADO;150,00;3;pet
+910;Câmera Vigilância Pets - Anomalia de Preço;-100.00;1;pet
+911;Localizador GPS Pets - Anomalia de Descrição;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+912;Coleira Anti-Latido - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;pet
+913;Brinquedo Interativo Pets - Anomalia de Preço;-40.00;5;pet
+914;Aquário Inteligente - Anomalia de Categoria;NÃO ENCONTRADO;500,00;1;NÃO ENCONTRADO
+915;Termostato Aquário - Anomalia de ID;NÃO ENCONTRADO;100,00;4;pet
+916;Filtro Aquário Externo - Anomalia de Preço;-50.00;3;pet
+917;Iluminação LED Aquário - Anomalia de Descrição;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+918;Bomba Ar Aquário - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;pet
+919;Aspirador Fundo Aquário - Anomalia de Preço;-30.00;10;pet
+920;Kit Teste Água Aquário - Anomalia de Categoria;NÃO ENCONTRADO;50,00;10;NÃO ENCONTRADO
+921;Skimmer Aquário Marinho - Anomalia de ID;NÃO ENCONTRADO;200,00;2;pet
+922;Reator Cálcio Aquário - Anomalia de Preço;-150.00;1;pet
+923;Controlador Temperatura Aquário - Anomalia de Descrição;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+924;Máquina Limpeza Patas - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;pet
+925;Secador Pelos Pets - Anomalia de Preço;-100.00;2;pet
+926;Máquina Tosar Pets - Anomalia de Categoria;NÃO ENCONTRADO;150,00;3;NÃO ENCONTRADO
+927;Cortador Unhas Pets - Anomalia de ID;NÃO ENCONTRADO;80,00;5;pet
+928;Fone Ouvido Infantil - Anomalia de Preço;-20.00;10;áudio
+929;Tablet Infantil - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+930;Relógio Inteligente Infantil - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;infantil
+931;Câmera Infantil Digital - Anomalia de Preço;-50.00;3;infantil
+932;Microfone Karaokê Infantil - Anomalia de Categoria;NÃO ENCONTRADO;90,00;5;NÃO ENCONTRADO
+933;Projetor Desenhos Infantil - Anomalia de ID;NÃO ENCONTRADO;100,00;4;infantil
+934;Carrinho Controle Remoto - Anomalia de Preço;-50.00;3;brinquedo
+935;Helicóptero Controle Remoto - Anomalia de Descrição;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+936;Barco Controle Remoto - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;brinquedo
+937;Robô Brinquedo Programável - Anomalia de Preço;-100.00;1;brinquedo
+938;Carro Elétrico Infantil - Anomalia de Categoria;NÃO ENCONTRADO;600,00;1;NÃO ENCONTRADO
+939;Patinete Elétrico Infantil - Anomalia de ID;NÃO ENCONTRADO;400,00;1;brinquedo
+940;Hoverboard - Anomalia de Preço;-400.00;1;mobilidade
+941;Bicicleta Elétrica Dobrável - Anomalia de Descrição;NÃO ENCONTRADO;2000,00;1;NÃO ENCONTRADO
+942;Monociclo Elétrico - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;mobilidade
+943;Skate Elétrico - Anomalia de Preço;-500.00;1;mobilidade
+944;Patins Elétricos - Anomalia de Categoria;NÃO ENCONTRADO;700,00;1;NÃO ENCONTRADO
+945;Esteira Ergométrica - Anomalia de ID;NÃO ENCONTRADO;1500,00;1;fitness
+946;Bicicleta Ergométrica - Anomalia de Preço;-400.00;1;fitness
+947;Elíptico Eletrônico - Anomalia de Descrição;NÃO ENCONTRADO;1200,00;1;NÃO ENCONTRADO
+948;Aparelho Musculação - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;fitness
+949;Smart Rope - Anomalia de Preço;-50.00;3;fitness
+950;Luvas Boxe Sensor - Anomalia de Categoria;NÃO ENCONTRADO;200,00;2;NÃO ENCONTRADO
+951;Raquete Tênis Sensor - Anomalia de ID;NÃO ENCONTRADO;300,00;1;esporte
+952;Bola Basquete Inteligente - Anomalia de Preço;-80.00;2;esporte
+953;Óculos Natação Display - Anomalia de Descrição;NÃO ENCONTRADO;250,00;2;NÃO ENCONTRADO
+954;Colete Natação Inteligente - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;esporte
+955;Barco Pesqueiro Sonar - Anomalia de Preço;-600.00;1;pesca
+956;Sonar Pesca Portátil - Anomalia de Categoria;NÃO ENCONTRADO;400,00;1;NÃO ENCONTRADO
+957;Drone Pesca - Anomalia de ID;NÃO ENCONTRADO;800,00;1;pesca
+958;Vara Pesca Sensor - Anomalia de Preço;-200.00;1;pesca
+959;Carretilha Elétrica Pesca - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+960;Isqueiro Elétrico - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;acessório
+961;Acendedor Fogão Elétrico - Anomalia de Preço;-10.00;15;acessório
+962;Máquina Pipoca Elétrica - Anomalia de Categoria;NÃO ENCONTRADO;120,00;3;NÃO ENCONTRADO
+963;Máquina Algodão Doce - Anomalia de ID;NÃO ENCONTRADO;180,00;2;eletrodoméstico
+964;Máquina Gelo Raspado - Anomalia de Preço;-100.00;2;eletrodoméstico
+965;Máquina Pizza Elétrica - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+966;Panela Elétrica Fondue - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+967;Chapa Elétrica Lanches - Anomalia de Preço;-80.00;3;eletrodoméstico
+968;Grill Sanduicheira - Anomalia de Categoria;NÃO ENCONTRADO;180,00;2;NÃO ENCONTRADO
+969;Mini Forno Elétrico - Anomalia de ID;NÃO ENCONTRADO;200,00;2;eletrodoméstico
+970;Micro-ondas Compacto - Anomalia de Preço;-100.00;1;eletrodoméstico
+971;Fogão Indução Portátil - Anomalia de Descrição;NÃO ENCONTRADO;300,00;1;NÃO ENCONTRADO
+972;Frigobar Retrô - Anomalia de Quantidade;NÃO ENCONTRADO;NÃO ENCONTRADO;eletrodoméstico
+973;Câmera Ação Subaquática - Anomalia de Preço;-200.00;1;fotografia e vídeo
+974;Máquina Pipoca Comercial - Anomalia de Categoria;NÃO ENCONTRADO;2000,00;1;NÃO ENCONTRADO
+975;Aspirador Robô Mapeamento - Anomalia de ID;NÃO ENCONTRADO;1500,00;1;eletrodoméstico inteligente
+976;Lava-louças Inexistente;NÃO ENCONTRADO;NÃO ENCONTRADO;0;eletrodoméstico
+977;Cafeteira Elétrica - Modelo Inexistente;NÃO ENCONTRADO;NÃO ENCONTRADO;0;eletrodoméstico
+978;Preço Zero - Produto Vazio;0;0;NÃO ENCONTRADO;NÃO ENCONTRADO
+979;Categoria Não Definida;100;150,00;1;NÃO ENCONTRADO
+980;Produto com ID Duplicado (Exemplo);1;200,00;1;erro de entrada
+981;Produto com Preço Muito Alto;9999999,99;1;computador de alto desempenho
+982;Produto com Quantidade Zero;Teclado;89,90;0;periférico de entrada
+983;Descrição com Caracteres Inválidos;Mouse Gaming @#$;150,00;2;periférico de entrada
+984;Produto sem ID;Laptop;3000,00;1;computador portátil
+985;Produto com Preço Negativo;Fone de Ouvido Bass;-120.00;5;periférico de áudio
+986;Categoria Vazia;Câmera;700,00;1;
+987;Produto com Quantidade Negativa;Smartwatch;-2;799,00;wearable
+988;ID Incorreto;ABC;400,00;1;roteador
+989;Preço com Formato Inválido;Impressora;699,9A;1;impressora
+990;Quantidade com Texto;Monitor;799,00;UM;acessório de vídeo
+991;Categoria Numérica;Teclado;89,90;3;12345
+992;Produto com Nome Muito Longo;Extremamente Grande Nome de Um Produto Eletrônico Que Não Deveria Existir Neste Campo Mas Que Está Aqui Para Testar A Capacidade De Aceitação De Dados Com Inconsistências No Log;1000,00;1;testes de dados
+993;Descrição com Caracteres Especiais;Cabo HDMI @#$*&;19,90;5;acessório audiovisual
+994;Preço com Vírgula em vez de Ponto;Notebook;3599,00;1;computador portátil
+995;ID com Letras;ABC-123;500,00;1;webcam
+996;Produto Sem Preço;Mouse;NÃO ENCONTRADO;2;periférico
+997;Produto Sem Quantidade;Teclado;89,90;NÃO ENCONTRADO;periférico
+998;Produto Sem Categoria;Monitor;799,00;1;NÃO ENCONTRADO
+999;Entrada Duplicada e Corrompida;1;PC Gamer;5999,99;1;computador de alto desempenho
+1000;Impressora;NÃO ENCONTRADO;NÃO ENCONTRADO;NÃO ENCONTRADO;NÃO ENCONTRADO
