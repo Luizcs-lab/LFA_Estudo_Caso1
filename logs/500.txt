@@ -1,0 +1,500 @@
+1;PC Gamer;5999,99;1;computador de alto desempenho
+2;Mouse Gamer;150,00;2;periférico de entrada
+3;Notebook;3599,00;1;computador portátil
+4;Impressora Multifuncional;699,90;1;periférico de impressão
+5;Smart TV 55";-2500,00;1;entretenimento
+6;Teclado Mecânico RGB;289,90;3;periférico de entrada
+7;Monitor Ultrawide;1799,00;1;acessório de vídeo
+8;Headset Gamer;350,00;2;periférico de áudio
+9;Roteador Wi-Fi 6;450,00;5;rede e conectividade
+10;Tablet Android;1200,00;1;dispositivo móvel
+11;Câmera DSLR;3200,00;1;fotografia e vídeo
+12;Smartwatch;799,00;5;wearable
+13;Caixa de Som Bluetooth;180,00;10;áudio portátil
+14;Pendrive 128GB;85,00;10;armazenamento
+15;SSD Interno 1TB;599,00;2;armazenamento interno
+16;Placa de Vídeo RTX 4070;4800,00;1;componente de hardware
+17;Fone de Ouvido Sem Fio;220,00;5;periférico de áudio
+18;Console de Videogame;2900,00;1;entretenimento
+19;Webcam Full HD;199,90;2;periférico de vídeo
+20;Mesa Digitalizadora;400,00;2;periférico de entrada
+21;Projetor Portátil;1500,00;1;acessório de vídeo
+22;Controle Remoto Universal;70,00;3;acessório de controle
+23;Leitor de E-book;550,00;1;dispositivo de leitura
+24;Drone com Câmera;2100,00;1;veículo aéreo
+25;GPS Automotivo;380,00;2;navegação
+26;Microfone Condensador;300,00;3;periférico de áudio
+27;Impressora 3D;2800,00;1;fabricação digital
+28;Termostato Inteligente;250,00;1;automação residencial
+29;Lâmpada Inteligente RGB;70,00;5;iluminação inteligente
+30;Robô Aspirador;1300,00;1;eletrodoméstico inteligente
+31;HD Externo 2TB;450,00;2;armazenamento externo
+32;Placa-mãe AM5;1100,00;1;componente de hardware
+33;Memória RAM 16GB DDR5;650,00;1;componente de hardware
+34;Processador AMD Ryzen 7;1900,00;1;componente de hardware
+35;Fonte de Alimentação 750W;400,00;1;componente de hardware
+36;Gabinete Gamer;500,00;1;componente de hardware
+37;Sistema de Som Home Theater;3000,00;1;áudio e vídeo
+38;Óculos de Realidade Virtual;2000,00;1;entretenimento imersivo
+39;Barra de Som;800,00;1;áudio
+40;Câmera de Segurança IP;320,00;2;segurança
+41;Fechadura Eletrônica;600,00;1;segurança residencial
+42;Televisor Portátil;450,00;2;entretenimento
+43;Monitor Curvo;1500,00;1;acessório de vídeo
+44;Adaptador Bluetooth USB;45,00;10;conectividade
+45;Cartão de Memória SD 64GB;60,00;15;armazenamento
+46;Power Bank 10000mAh;120,00;8;energia portátil
+47;Mini Projetor;850,00;1;acessório de vídeo
+48;Repetidor Wi-Fi;120,00;5;rede e conectividade
+49;Central Multimídia Automotiva;900,00;1;entretenimento automotivo
+50;Fone de Condução Óssea;400,00;3;periférico de áudio
+51;Carregador Sem Fio;90,00;5;acessório de energia
+52;Leitor de Cartões USB;30,00;20;acessório de leitura
+53;Cabo HDMI 4K;40,00;15;cabo de vídeo
+54;Cabo USB-C;25,00;20;cabo de dados
+55;Adaptador USB Ethernet;80,00;10;conectividade
+56;Webcam 4K;450,00;1;periférico de vídeo
+57;Impressora Térmica;300,00;2;periférico de impressão
+58;Cortina Inteligente;700,00;1;automação residencial
+59;Espelho Inteligente;1800,00;1;automação residencial
+60;Purificador de Ar Inteligente;900,00;1;eletrodoméstico inteligente
+61;Câmera de Ação 4K;1100,00;1;fotografia e vídeo
+62;Gimbal para Celular;600,00;2;acessório de vídeo
+63;Iluminador LED para Vídeo;150,00;5;acessório de vídeo
+64;Lente para Smartphone;80,00;10;acessório de fotografia
+65;Tripé para Câmera;120,00;5;acessório de fotografia
+66;Microfone de Lapela;95,00;8;periférico de áudio
+67;Placa de Captura de Vídeo;700,00;2;componente de hardware
+68;Mesa de Som Digital;2500,00;1;áudio profissional
+69;Interface de Áudio USB;500,00;2;áudio profissional
+70;Fones de Monitoramento;600,00;1;áudio profissional
+71;Controlador MIDI;800,00;1;áudio profissional
+72;Sintetizador Digital;1500,00;1;áudio profissional
+73;Guitarra Elétrica Digital;1200,00;1;instrumento musical eletrônico
+74;Bateria Eletrônica;1800,00;1;instrumento musical eletrônico
+75;Pedaleira Multi-efeitos;900,00;1;instrumento musical eletrônico
+76;Controlador DJ;1400,00;1;áudio profissional
+77;Mixer de Áudio;700,00;2;áudio profissional
+78;Amplificador de Guitarra;1100,00;1;áudio profissional
+79;Fones de Ouvido Bluetooth Esportivos;180,00;5;periférico de áudio
+80;Pulseira Fitness;299,00;3;wearable
+81;Balança Bioimpedância Inteligente;220,00;2;saúde e bem-estar
+82;Medidor de Pressão Arterial Digital;150,00;3;saúde e bem-estar
+83;Termômetro Digital Infravermelho;90,00;5;saúde e bem-estar
+84;Massageador Elétrico;350,00;2;saúde e bem-estar
+85;Escova de Dentes Elétrica;180,00;3;saúde e bem-estar
+86;Aparador de Pelos Digital;120,00;4;cuidados pessoais
+87;Secador de Cabelo Profissional;250,00;2;cuidados pessoais
+88;Chapinha de Cabelo;180,00;3;cuidados pessoais
+89;Máquina de Cortar Cabelo;110,00;4;cuidados pessoais
+90;Barbeador Elétrico;200,00;3;cuidados pessoais
+91;Cafeteira Inteligente;650,00;1;eletrodoméstico inteligente
+92;Chaleira Elétrica Inteligente;280,00;2;eletrodoméstico inteligente
+93;Torradeira Inteligente;300,00;2;eletrodoméstico inteligente
+94;Liquidificador Inteligente;400,00;1;eletrodoméstico inteligente
+95;Forno Elétrico Inteligente;1200,00;1;eletrodoméstico inteligente
+96;Geladeira Smart;8000,00;1;eletrodoméstico inteligente
+97;Máquina de Lavar Smart;3500,00;1;eletrodoméstico inteligente
+98;Cooktop por Indução;1500,00;1;eletrodoméstico inteligente
+99;Exaustor Inteligente;900,00;1;eletrodoméstico inteligente
+100;Lava-louças Inteligente;2800,00;1;eletrodoméstico inteligente
+101;Robô Limpador de Janelas;950,00;1;eletrodoméstico inteligente
+102;Câmera Veicular (Dash Cam);300,00;2;automotivo
+103;Sensor de Estacionamento;180,00;5;automotivo
+104;Câmera de Ré Automotiva;150,00;4;automotivo
+105;Sistema de Alarme Automotivo;450,00;2;automotivo
+106;Rastreador Veicular GPS;350,00;3;automotivo
+107;Pneu Inteligente;800,00;4;automotivo
+108;Bateria Automotiva Inteligente;600,00;2;automotivo
+109;Kit de Faróis de LED;250,00;4;automotivo
+110;Central Multimídia CarPlay/Android Auto;1800,00;1;automotivo
+111;Carregador de Bateria Automotiva;150,00;5;automotivo
+112;Ferro de Passar Roupa Inteligente;280,00;2;eletrodoméstico
+113;Vaporizador de Roupa;350,00;2;eletrodoméstico
+114;Aspirador de Pó Vertical;400,00;1;eletrodoméstico
+115;Enceradeira Elétrica;300,00;2;eletrodoméstico
+116;Máquina de Costura Eletrônica;700,00;1;eletrodoméstico
+117;Micro-ondas com Grill;600,00;1;eletrodoméstico
+118;Air Fryer Digital;550,00;1;eletrodoméstico
+119;Batedeira Planetária;450,00;1;eletrodoméstico
+120;Processador de Alimentos;380,00;1;eletrodoméstico
+121;Máquina de Pão;500,00;1;eletrodoméstico
+122;Panela de Pressão Elétrica;350,00;1;eletrodoméstico
+123;Grill Elétrico;250,00;2;eletrodoméstico
+124;Sanduicheira Elétrica;120,00;3;eletrodoméstico
+125;Espremedor de Frutas Elétrico;90,00;5;eletrodoméstico
+126;Liquidificador Portátil USB;150,00;4;eletrodoméstico
+127;Máquina de Gelo Portátil;700,00;1;eletrodoméstico
+128;Adegas Climatizadas;1500,00;1;eletrodoméstico
+129;Frigobar;700,00;1;eletrodoméstico
+130;Bebedouro Elétrico;300,00;2;eletrodoméstico
+131;Chuveiro Elétrico Digital;250,00;3;eletrodoméstico
+132;Aquecedor de Ambiente Elétrico;300,00;2;eletrodoméstico
+133;Umidificador de Ar;180,00;3;eletrodoméstico
+134;Desumidificador de Ar;500,00;1;eletrodoméstico
+135;Ar Condicionado Portátil;1500,00;1;eletrodoméstico
+136;Ventilador de Teto com Controle;350,00;2;eletrodoméstico
+137;Ventilador de Mesa Silencioso;120,00;5;eletrodoméstico
+138;Exaustor de Cozinha;400,00;1;eletrodoméstico
+139;Triturador de Lixo Orgânico;600,00;1;eletrodoméstico
+140;Secadora de Roupas Elétrica;2500,00;1;eletrodoméstico
+141;Máquina de Lavar Louça;1800,00;1;eletrodoméstico
+142;Abridor de Lata Elétrico;80,00;5;eletrodoméstico
+143;Balancinha Digital de Cozinha;70,00;10;eletrodoméstico
+144;Termômetro de Forno Digital;50,00;15;eletrodoméstico
+145;Temporizador Digital de Cozinha;40,00;20;eletrodoméstico
+146;Fritadeira Sem Óleo Compacta;380,00;1;eletrodoméstico
+147;Panela de Arroz Elétrica;180,00;3;eletrodoméstico
+148;Omeleteira Elétrica;90,00;5;eletrodoméstico
+149;Crepeira Elétrica;110,00;4;eletrodoméstico
+150;Máquina de Waffles;130,00;3;eletrodoméstico
+151;Mini Geladeira Portátil;250,00;2;eletrodoméstico
+152;Câmera de Segurança Externa;400,00;1;segurança
+153;Sensor de Movimento Inteligente;150,00;3;segurança
+154;Sensor de Abertura de Portas/Janelas;120,00;4;segurança
+155;Alarme Residencial Monitorado;800,00;1;segurança
+156;Sirene de Alarme Externa;200,00;2;segurança
+157;Câmera IP Interna;250,00;2;segurança
+158;Videoporteiro Inteligente;700,00;1;segurança
+159;Campainha Inteligente com Câmera;450,00;1;segurança
+160;Detector de Fumaça Inteligente;180,00;3;segurança
+161;Detector de Vazamento de Gás;220,00;2;segurança
+162;Sensor de Inundação;100,00;5;segurança
+163;Central de Automação Residencial;1200,00;1;automação residencial
+164;Tomada Inteligente;90,00;5;automação residencial
+165;Interruptor Inteligente;110,00;4;automação residencial
+166;Controle Universal IR;130,00;3;automação residencial
+167;Câmera Panorâmica 360°;600,00;1;segurança
+168;Drone de Vigilância;3000,00;1;segurança
+169;Refletor Inteligente com Câmera;500,00;1;segurança
+170;DVR/NVR para Câmeras;900,00;1;segurança
+171;Bateria para Nobreak;250,00;2;energia
+172;Filtro de Linha com USB;70,00;10;energia
+173;Adaptador de Tomada Universal;30,00;20;energia
+174;Fonte para Notebook Universal;120,00;5;energia
+175;Carregador Portátil para Notebook;300,00;2;energia portátil
+176;Inversor de Corrente Automotivo;180,00;3;energia
+177;Kit Painel Solar Portátil;800,00;1;energia renovável
+178;Controlador de Carga Solar;200,00;2;energia renovável
+179;Bateria Estacionária Solar;1500,00;1;energia renovável
+180;Iluminação Solar de Jardim;90,00;5;energia renovável
+181;Lanterna Tática Recarregável;150,00;4;iluminação
+182;Luminária de Mesa com Carregador;180,00;3;iluminação
+183;Fita LED RGB Inteligente;120,00;5;iluminação inteligente
+184;Projetor de Luz Noturna;80,00;8;iluminação
+185;Lâmpada UV para Esterilização;200,00;3;saúde e bem-estar
+186;Umidade e Temperatura Inteligente;100,00;5;automação residencial
+187;Sensor de Fumaça e CO;250,00;2;segurança
+188;Estação Meteorológica Doméstica;350,00;1;automação residencial
+189;Cadeado Inteligente Bluetooth;180,00;3;segurança
+190;Cofre Eletrônico Digital;700,00;1;segurança
+191;Destruidora de Papel Elétrica;250,00;2;escritório
+192;Calculadora Científica Gráfica;300,00;1;escritório
+193;Gravador de Voz Digital;180,00;3;escritório
+194;Etiquetadora Eletrônica;150,00;4;escritório
+195;Laminadora de Documentos;200,00;2;escritório
+196;Projetor Interativo;3500,00;1;educação/negócios
+197;Tela de Projeção Elétrica;900,00;1;educação/negócios
+198;Sistema de Videoconferência;2000,00;1;negócios
+199;Telefone IP;400,00;2;comunicação
+200;Sistema de Ponto Eletrônico;1200,00;1;negócios
+201;Impressora de Etiquetas Térmica;400,00;1;escritório
+202;Leitor de Código de Barras;250,00;2;varejo
+203;Gaveta de Dinheiro Eletrônica;150,00;3;varejo
+204;Impressora Fiscal Eletrônica;2000,00;1;varejo
+205;Máquina de Cartão de Crédito;300,00;2;varejo
+206;Impressora de Cheques;500,00;1;escritório
+207;Cortador de Papel Automático;800,00;1;escritório
+208;Guilhotina Elétrica;400,00;2;escritório
+209;Encadernadora Elétrica;300,00;2;escritório
+210;Perfuradora de Papel Elétrica;180,00;3;escritório
+211;Relógio de Ponto Biométrica;1000,00;1;negócios
+212;Máquina de Contar Cédulas;1500,00;1;negócios
+213;Máquina de Contar Moedas;800,00;1;negócios
+214;Detector de Cédulas Falsas;200,00;2;negócios
+215;Scanner de Cheques;700,00;1;escritório
+216;Destruidora de CD/DVD;120,00;4;escritório
+217;Luminária de Emergência Recarregável;80,00;8;iluminação
+218;Refletor LED para Obra;250,00;2;iluminação
+219;Lanterna de Cabeça Recarregável;60,00;10;iluminação
+220;Pistola de Cola Quente Elétrica;90,00;5;ferramentas
+221;Parafusadeira Elétrica;180,00;3;ferramentas
+222;Furadeira de Impacto;250,00;2;ferramentas
+223;Serra Tico-Tico Elétrica;300,00;2;ferramentas
+224;Lixadeira Elétrica;200,00;3;ferramentas
+225;Multímetro Digital;120,00;5;ferramentas
+226;Alicate Amperímetro;250,00;2;ferramentas
+227;Medidor de Distância a Laser;300,00;2;ferramentas
+228;Nível a Laser;400,00;1;ferramentas
+229;Câmera Termográfica;2500,00;1;ferramentas
+230;Endoscópio Industrial;600,00;1;ferramentas
+231;Gerador de Energia Portátil;1500,00;1;energia
+232;Fonte de Alimentação para Bancada;800,00;1;eletrônica
+233;Osciloscópio Digital;2000,00;1;eletrônica
+234;Ferro de Solda com Controle de Temperatura;150,00;3;eletrônica
+235;Estação de Solda;300,00;2;eletrônica
+236;Kit de Ferramentas para Eletrônica;100,00;5;ferramentas
+237;Multímetro Automotivo;180,00;3;automotivo/ferramentas
+238;Scanner OBD2 Automotivo;250,00;2;automotivo/ferramentas
+239;Carregador de Bateria Inteligente;200,00;3;automotivo
+240;Testador de Bateria Automotiva;100,00;5;automotivo
+241;Calibrador de Pneus Digital;80,00;10;automotivo
+242;Compressor de Ar Portátil;150,00;4;automotivo
+243;Bomba de Água Submersa Elétrica;300,00;2;jardinagem
+244;Aparador de Grama Elétrico;400,00;1;jardinagem
+245;Soprador de Folhas Elétrico;250,00;2;jardinagem
+246;Cortador de Cerca Viva Elétrico;300,00;2;jardinagem
+247;Motosserra Elétrica;500,00;1;jardinagem
+248;Lavadora de Alta Pressão;600,00;1;limpeza
+249;Aspirador de Pó e Água;450,00;1;limpeza
+250;Máquina de Limpeza a Vapor;550,00;1;limpeza
+251;Robô Limpador de Piscinas;2000,00;1;limpeza
+252;Máquina de Café Espresso Automática;1800,00;1;eletrodoméstico
+253;Moedor de Café Elétrico;150,00;3;eletrodoméstico
+254;Leiteira Elétrica (espumador);120,00;4;eletrodoméstico
+255;Máquina de Fazer Sorvete;300,00;2;eletrodoméstico
+256;Máquina de Gelo em Cubos;900,00;1;eletrodoméstico
+257;Adegas para Vinhos;1500,00;1;eletrodoméstico
+258;Cervejeira Elétrica;2500,00;1;eletrodoméstico
+259;Máquina de Costura Portátil;300,00;2;eletrodoméstico
+260;Máquina de Bordar;1800,00;1;eletrodoméstico
+261;Máquina de Overlock;1000,00;1;eletrodoméstico
+262;Máquina de Tricotar Elétrica;900,00;1;eletrodoméstico
+263;Impressora de Fotos Portátil;400,00;1;fotografia
+264;Câmera Instantânea;350,00;2;fotografia
+265;Filmadora Compacta;800,00;1;fotografia e vídeo
+266;Iluminador LED para Fotos;200,00;3;fotografia
+267;Softbox para Estúdio;300,00;2;fotografia
+268;Fundo Infinito para Fotografia;150,00;4;fotografia
+269;Tripé de Iluminação;100,00;5;fotografia
+270;Disparador Remoto para Câmera;80,00;8;fotografia
+271;Flash Externo para Câmera;300,00;2;fotografia
+272;Gatilho de Flash sem Fio;150,00;4;fotografia
+273;Rebatedor de Luz;50,00;15;fotografia
+274;Mochila para Câmera;200,00;3;acessório de fotografia
+275;Bolsa para Lente;80,00;10;acessório de fotografia
+276;Kit de Limpeza para Câmera;40,00;20;acessório de fotografia
+277;Protetor de Tela para Câmera;30,00;25;acessório de fotografia
+278;Bateria Extra para Câmera;120,00;5;acessório de fotografia
+279;Carregador de Bateria para Câmera;90,00;8;acessório de fotografia
+280;Adaptador de Lente;250,00;2;acessório de fotografia
+281;Telefone Sem Fio com Ramal;180,00;3;comunicação
+282;Secretária Eletrônica;120,00;4;comunicação
+283;Fax Eletrônico;300,00;2;comunicação
+284;Rádio Comunicador Walkie Talkie;250,00;2;comunicação
+285;Central Telefônica PABX;1500,00;1;comunicação
+286;Interfone Sem Fio;350,00;2;comunicação
+287;Sistema de Teleconferência;800,00;1;comunicação
+288;Telefone Celular Antigo (para coleção);-50,00;1;telefonia
+289;Rádio Portátil AM/FM;90,00;5;áudio
+290;Gravador de CD/DVD Externo;150,00;4;armazenamento
+291;Dock Station para HD;100,00;5;armazenamento
+292;Case para HD Externo;50,00;10;acessório de armazenamento
+293;Leitor de Blu-Ray Externo;200,00;3;entretenimento
+294;Drive de CD/DVD Externo;80,00;8;armazenamento
+295;Adaptador USB Wi-Fi;60,00;10;conectividade
+296;Placa de Rede Gigabit Ethernet;90,00;8;conectividade
+297;Switch de Rede 8 Portas;150,00;5;rede e conectividade
+298;Rack para Servidor;500,00;1;rede e conectividade
+299;Nobreak Senoidal;900,00;1;energia
+300;Estabilizador de Voltagem;120,00;5;energia
+301;Transformador de Voltagem;180,00;3;energia
+302;Gerador de Ozônio;300,00;2;saúde e bem-estar
+303;Aparelho de Jato de Água Dental;250,00;2;saúde e bem-estar
+304;Lupa Eletrônica com LED;150,00;4;ferramentas
+305;Testador de Cabos de Rede;80,00;8;ferramentas
+306;Kit de Limpeza de Eletrônicos;50,00;15;limpeza
+307;Spray Limpa Contato;30,00;20;limpeza
+308;Ventilador de Coluna Inteligente;250,00;2;eletrodoméstico
+309;Climatizador de Ar Evaporativo;500,00;1;eletrodoméstico
+310;Adega de Vinhos Duas Zonas;2500,00;1;eletrodoméstico
+311;Cervejeira Portátil;800,00;1;eletrodoméstico
+312;Máquina de Costura Computadorizada;1500,00;1;eletrodoméstico
+313;Forninho Elétrico com Air Fryer;700,00;1;eletrodoméstico
+314;Máquina de Café Cápsulas;350,00;2;eletrodoméstico
+315;Cabo de Rede Cat6;30,00;20;cabo de dados
+316;Conector RJ45;5,00;50;componente de rede
+317;Crimpador de Cabo de Rede;80,00;10;ferramentas
+318;Testador de Bateria 9V;20,00;30;ferramentas
+319;Alicate de Bico Fino Isolado;40,00;15;ferramentas
+320;Chave Phillips Isolada;25,00;20;ferramentas
+321;Estilete Retrátil;15,00;30;ferramentas
+322;Pinça de Precisão;20,00;25;ferramentas
+323;Conjunto de Chaves de Precisão;60,00;10;ferramentas
+324;Fita Isolante Elétrica;10,00;40;material elétrico
+325;Braçadeira de Nylon;8,00;50;material elétrico
+326;Terminais Elétricos Sortidos;30,00;20;material elétrico
+327;Prensa Terminal;120,00;5;ferramentas
+328;Descascador de Fio;50,00;15;ferramentas
+329;Kit de Solda Básico;80,00;10;eletrônica
+330;Sugador de Solda;30,00;20;eletrônica
+331;Estanho para Solda;25,00;25;eletrônica
+332;Fluxo de Solda;20,00;30;eletrônica
+333;Malha Dessoldadora;15,00;35;eletrônica
+334;Pinça Anti-estática;40,00;15;eletrônica
+335;Luva Anti-estática;50,00;10;segurança
+336;Tapete Anti-estático;150,00;5;segurança
+337;Pulseira Anti-estática;30,00;20;segurança
+338;Ventoinha para Gabinete;40,00;15;componente de hardware
+339;Pasta Térmica;25,00;20;componente de hardware
+340;Fonte ATX 500W;250,00;2;componente de hardware
+341;Adaptador DisplayPort para HDMI;80,00;10;cabo de vídeo
+342;Cabo DVI para VGA;60,00;12;cabo de vídeo
+343;Adaptador USB para Serial;70,00;10;conectividade
+344;Hub USB 3.0;80,00;8;conectividade
+345;Extensor HDMI via Cabo de Rede;200,00;3;cabo de vídeo
+346;Cabo Óptico de Áudio;50,00;15;cabo de áudio
+347;Adaptador P2 para RCA;20,00;25;cabo de áudio
+348;Cabo VGA;30,00;20;cabo de vídeo
+349;Placa de Som USB;100,00;5;periférico de áudio
+350;Microfone USB;180,00;3;periférico de áudio
+351;Alto-falante Bluetooth com Rádio;250,00;2;áudio portátil
+352;Radio Relógio Despertador;120,00;5;áudio
+353;Gravador de Voz com MP3;200,00;3;áudio
+354;Dock Station para Smartphone;150,00;4;acessório de smartphone
+355;Carregador de Parede USB-C;80,00;8;acessório de smartphone
+356;Capa Protetora para Tablet;60,00;10;acessório de tablet
+357;Película Protetora para Celular;30,00;20;acessório de smartphone
+358;Suporte Veicular para Celular;40,00;15;acessório de smartphone
+359;Limpador de Tela Líquido;20,00;30;limpeza
+360;Pano de Microfibra;10,00;40;limpeza
+361;Kit de Ferramentas para Abrir Celular;50,00;15;ferramentas
+362;Lupa de Bancada com LED;180,00;3;eletrônica
+363;Pinça Reta Anti-magnética;30,00;20;ferramentas
+364;Kit de Chaves Torx;40,00;15;ferramentas
+365;Chave de Fenda de Precisão;20,00;25;ferramentas
+366;Estação de Retrabalho BGA;1500,00;1;eletrônica
+367;Fonte de Alimentação Ajustável;500,00;1;eletrônica
+368;Gerador de Funções;900,00;1;eletrônica
+369;Analisador Lógico;700,00;1;eletrônica
+370;Simulador de Circuitos;200,00;3;software/eletrônica
+371;Kit Arduino Iniciante;150,00;4;robótica/eletrônica
+372;Raspberry Pi 4;400,00;1;computador de placa única
+373;Kit Sensores para Arduino;80,00;8;robótica/eletrônica
+374;Módulo Relé;30,00;20;eletrônica
+375;Protoboard;20,00;25;eletrônica
+376;Jumpers para Protoboard;15,00;30;eletrônica
+377;LEDs Sortidos;10,00;50;componente eletrônico
+378;Resistores Sortidos;10,00;50;componente eletrônico
+379;Capacitores Sortidos;10,00;50;componente eletrônico
+380;Transistores Sortidos;20,00;30;componente eletrônico
+381;Diodos Sortidos;15,00;35;componente eletrônico
+382;Circuitos Integrados Básicos;30,00;20;componente eletrônico
+383;Motor de Passo;80,00;10;robótica/eletrônica
+384;Servo Motor;50,00;15;robótica/eletrônica
+385;Controlador de Motor;120,00;5;robótica/eletrônica
+386;Sensor de Umidade do Solo;40,00;15;automação/eletrônica
+387;Sensor de Temperatura e Umidade DHT11;30,00;20;automação/eletrônica
+388;Sensor Ultrassônico de Distância;50,00;15;robótica/eletrônica
+389;Módulo Bluetooth HC-05;60,00;12;conectividade/eletrônica
+390;Módulo Wi-Fi ESP8266;40,00;15;conectividade/eletrônica
+391;Display LCD 16x2;70,00;10;eletrônica
+392;Matriz de LEDs 8x8;90,00;8;eletrônica
+393;Teclado Membrana;40,00;15;eletrônica
+394;Módulo RTC DS3231;50,00;15;eletrônica
+395;Conversor DC-DC Step Down;30,00;20;eletrônica
+396;Bateria de Lítio 18650;25,00;25;energia
+397;Carregador de Bateria de Lítio;40,00;15;energia
+398;Placa Solar Pequena;60,00;12;energia renovável
+399;Módulo de Relé de Estado Sólido;80,00;10;eletrônica
+400;Sensor de Gás MQ-2;70,00;10;segurança/eletrônica
+401;Bomba de Água Pequena para Arduino;50,00;15;robótica/eletrônica
+402;Válvula Solenoide DC;80,00;10;automação/eletrônica
+403;Kit de Robô Seguidor de Linha;250,00;2;robótica
+404;Kit de Robô Sumô;350,00;1;robótica
+405;Braço Robótico;500,00;1;robótica
+406;Impressora de Código de Barras Térmica;800,00;1;varejo
+407;Software de Ponto de Venda (Licença);1200,00;1;software
+408;Sistema de Câmeras de Segurança Wi-Fi;1500,00;1;segurança
+409;Câmera de Monitoramento de Bebê;400,00;1;segurança
+410;Babá Eletrônica com Vídeo;600,00;1;segurança
+411;Dispensador Automático de Ração;300,00;2;pet
+412;Bebedouro Automático para Pets;200,00;3;pet
+413;Câmera de Vigilância para Pets;350,00;1;pet
+414;Localizador GPS para Pets;250,00;2;pet
+415;Coleira Anti-Latido Eletrônica;180,00;3;pet
+416;Brinquedo Interativo para Pets;120,00;5;pet
+417;Aquário Inteligente;700,00;1;pet
+418;Termostato para Aquário;150,00;4;pet
+419;Filtro para Aquário Externo;200,00;3;pet
+420;Iluminação LED para Aquário;180,00;3;pet
+421;Bomba de Ar para Aquário;50,00;15;pet
+422;Aspirador de Fundo para Aquário;80,00;10;pet
+423;Kit de Teste de Água para Aquário;70,00;10;pet
+424;Skimmer para Aquário Marinho;300,00;2;pet
+425;Reator de Cálcio para Aquário;500,00;1;pet
+426;Controlador de Temperatura para Aquário;250,00;2;pet
+427;Máquina de Limpeza de Patas de Pets;90,00;5;pet
+428;Secador de Pelos para Pets;300,00;2;pet
+429;Máquina de Tosar Pets;200,00;3;pet
+430;Cortador de Unhas Elétrico para Pets;100,00;5;pet
+431;Fone de Ouvido Infantil;80,00;10;áudio
+432;Tablet Infantil Educacional;400,00;1;infantil
+433;Relógio Inteligente Infantil com GPS;350,00;2;infantil
+434;Câmera Infantil Digital;200,00;3;infantil
+435;Microfone de Karaokê Infantil;120,00;5;infantil
+436;Projetor de Desenhos Infantil;150,00;4;infantil
+437;Carrinho de Controle Remoto;180,00;3;brinquedo
+438;Helicóptero de Controle Remoto;250,00;2;brinquedo
+439;Barco de Controle Remoto;300,00;2;brinquedo
+440;Robô de Brinquedo Programável;400,00;1;brinquedo
+441;Carro Elétrico Infantil;800,00;1;brinquedo
+442;Patinete Elétrico Infantil;500,00;1;brinquedo
+443;Hoverboard;1200,00;1;mobilidade
+444;Bicicleta Elétrica Dobrável;2500,00;1;mobilidade
+445;Monociclo Elétrico;1800,00;1;mobilidade
+446;Skate Elétrico;1500,00;1;mobilidade
+447;Patins Elétricos;900,00;1;mobilidade
+448;Esteira Ergométrica Eletrônica;2000,00;1;fitness
+449;Bicicleta Ergométrica Eletrônica;1200,00;1;fitness
+450;Elíptico Eletrônico;1500,00;1;fitness
+451;Aparelho de Musculação Eletrônico;3000,00;1;fitness
+452;Smart Rope (Corda de Pular Inteligente);200,00;3;fitness
+453;Luvas de Boxe com Sensor;300,00;2;fitness
+454;Raquete de Tênis com Sensor;400,00;1;esporte
+455;Bola de Basquete Inteligente;250,00;2;esporte
+456;Óculos de Natação com Display;300,00;2;esporte
+457;Colete de Natação Inteligente;400,00;1;esporte
+458;Barco Pesqueiro com Sonar;1800,00;1;pesca
+459;Sonar de Pesca Portátil;500,00;1;pesca
+460;Drone de Pesca;1000,00;1;pesca
+461;Vara de Pesca com Sensor;600,00;1;pesca
+462;Carretilha Elétrica de Pesca;400,00;1;pesca
+463;Isqueiro Elétrico Recarregável;80,00;10;acessório
+464;Acendedor de Fogão Elétrico;50,00;15;acessório
+465;Máquina de Fazer Pipoca Elétrica;180,00;3;eletrodoméstico
+466;Máquina de Algodão Doce Elétrica;250,00;2;eletrodoméstico
+467;Máquina de Fazer Gelo Raspado;300,00;2;eletrodoméstico
+468;Máquina de Fazer Pizza Elétrica;400,00;1;eletrodoméstico
+469;Panela Elétrica de Fondue;150,00;4;eletrodoméstico
+470;Chapa Elétrica para Lanches;200,00;3;eletrodoméstico
+471;Grill e Sanduicheira 2 em 1;250,00;2;eletrodoméstico
+472;Mini Forno Elétrico;300,00;2;eletrodoméstico
+473;Micro-ondas Compacto;450,00;1;eletrodoméstico
+474;Fogão de Indução Portátil;380,00;1;eletrodoméstico
+475;Frigobar Retrô;800,00;1;eletrodoméstico
+476;Câmera de Ação Esportiva;900,00;1;fotografia e vídeo
+477;Filmadora 360°;1500,00;1;fotografia e vídeo
+478;Câmera de Segurança com Painel Solar;700,00;1;segurança
+479;Mini Câmera Espiã;200,00;3;segurança
+480;Detector de Câmera Escondida;150,00;4;segurança
+481;Bloqueador de Sinal GPS/Wi-Fi;1200,00;1;segurança
+482;Arma de Choque Elétrica;500,00;1;segurança pessoal
+483;Spray de Pimenta Eletrônico;150,00;4;segurança pessoal
+484;Alarme Pessoal de Bolso;80,00;10;segurança pessoal
+485;Apito Eletrônico de Emergência;50,00;15;segurança pessoal
+486;Lanterna com Eletrochoque;300,00;2;segurança pessoal
+487;Detector de Metais Portátil;400,00;1;segurança
+488;Raio X de Bagagem (Mini);2500,00;1;segurança
+489;Detector de Substâncias Perigosas;1800,00;1;segurança
+490;Biometria para Portas;700,00;1;segurança
+491;Trava Eletrônica para Gavetas;100,00;5;segurança
+492;Sensor de Fumaça Wi-Fi;280,00;2;segurança
+493;Câmera Falsa de Segurança;50,00;15;segurança
+494;Sistema de Iluminação Inteligente Completo;3000,00;1;automação residencial
+495;Cortinas Elétricas Inteligentes;900,00;1;automação residencial
+496;Fechadura Biometrica Digital;1200,00;1;segurança
+497;Câmera de Ação subaquática;800,00;1;fotografia e vídeo
+498;Máquina de fazer pipoca comercial;2500,00;1;eletrodoméstico
+499;Aspirador de Pó Robô com mapeamento;1800,00;1;eletrodoméstico inteligente
+500;Diodo Emissor de Luz (LED) Queimado;NÃO ENCONTRADO;100;componente eletrônico
