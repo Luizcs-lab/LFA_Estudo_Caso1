@@ -1,60 +1,122 @@
-# Arquivo: ui/widgets.py
 import customtkinter as ctk
-import pandas as pd
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import matplotlib
 
-# Cria os filtros de nome, categoria e faixa de preço
-def criar_widgets_filtros(app):
-    filtro_preco_min = ctk.CTkEntry(app, placeholder_text="Preço mínimo")
-    filtro_preco_max = ctk.CTkEntry(app, placeholder_text="Preço máximo")
-    filtro_preco_min.pack(pady=5)
-    filtro_preco_max.pack(pady=5)
+class DashboardGrafico:
+    def __init__(self, container):
+        self.container = container
+        self.fig = None
+        self.ax = None
+        self.canvas = None
+        self.df = None
+        self.grafico_atual = 0  # 0: barras, 1: pizza
 
-    frame_nomes = ctk.CTkFrame(app)
-    frame_categorias = ctk.CTkFrame(app)
-    frame_nomes.pack(pady=5, fill='both', expand=True)
-    frame_categorias.pack(pady=5, fill='both', expand=True)
+        # Frame para setas de navegação
+        self.frame_botoes = ctk.CTkFrame(container)
+        self.frame_botoes.pack(side='bottom', pady=10)
 
-    return {}, {}, frame_nomes, frame_categorias, filtro_preco_min, filtro_preco_max
+        self.btn_esquerda = ctk.CTkButton(self.frame_botoes, text='⬅', width=40, command=self.mostrar_grafico_anterior)
+        self.btn_esquerda.pack(side='left', padx=10)
 
-# Cria os campos de entrada de valores esperados por categoria
-def criar_campos_valores_esperados(master, categorias):
-    campos = {}
-    for cat in categorias:
-        lbl = ctk.CTkLabel(master, text=f"{cat.capitalize()} (esperado):")
-        lbl.pack()
-        entry = ctk.CTkEntry(master)
-        entry.insert(0, "1000")  # valor inicial padrão
-        entry.pack(pady=2)
-        campos[cat] = entry
-    return campos
+        self.btn_direita = ctk.CTkButton(self.frame_botoes, text='➡', width=40, command=self.mostrar_proximo_grafico)
+        self.btn_direita.pack(side='left', padx=10)
 
-# Cria checkboxes dinamicamente com base nos dados únicos da coluna
-def criar_checkboxes(df, frame, var_dict, coluna):
-    for valor in sorted(df[coluna].unique()):
-        var = ctk.BooleanVar()
-        checkbox = ctk.CTkCheckBox(frame, text=valor, variable=var)
-        checkbox.pack(anchor='w')
-        var_dict[valor] = var
+    def mostrar_grafico(self, df):
+        self.df = df
+        self.grafico_atual = 0
+        self.exibir_grafico_barras()
 
-# Cria os botões principais com melhor disposição e estilos visuais
-def criar_botoes_principais(app, carregar_cmd, graficos_cmd, anomalias_cmd):
-    frame_botoes = ctk.CTkFrame(app)  # Agrupa os botões em um frame centralizado
+    def limpar_tela(self):
+        for widget in self.container.winfo_children():
+            widget.destroy()
+        # Recria frame dos botões após limpeza
+        self.frame_botoes = ctk.CTkFrame(self.container)
+        self.frame_botoes.pack(side='bottom', pady=10)
+
+        self.btn_esquerda = ctk.CTkButton(self.frame_botoes, text='⬅', width=40, command=self.mostrar_grafico_anterior)
+        self.btn_esquerda.pack(side='left', padx=10)
+
+        self.btn_direita = ctk.CTkButton(self.frame_botoes, text='➡', width=40, command=self.mostrar_proximo_grafico)
+        self.btn_direita.pack(side='left', padx=10)
+
+    def exibir_grafico_barras(self):
+        self.limpar_tela()
+        self.fig, self.ax = plt.subplots(figsize=(8,5))
+        total_categoria = self.df.groupby('categoria').apply(lambda x: (x['preco'] * x['quantidade']).sum())
+
+        total_categoria.plot(kind='bar', ax=self.ax, color='purple')
+        self.ax.set_title('Total por Categoria (Gráfico de Barras)')
+        self.ax.set_ylabel('Valor')
+
+        self.ax.tick_params(axis='x', rotation=45)
+        plt.setp(self.ax.get_xticklabels(), ha='right')
+
+        plt.tight_layout()
+
+        self.canvas = FigureCanvasTkAgg(self.fig, master=self.container)
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack(fill='both', expand=True)
+
+    def exibir_grafico_pizza(self):
+        self.limpar_tela()
+        self.fig, self.ax = plt.subplots(figsize=(7, 7))
+        total_categoria = self.df.groupby('categoria').apply(lambda x: (x['preco'] * x['quantidade']).sum())
+
+        explode = [0.1 if i == total_categoria.idxmax() else 0 for i in total_categoria.index]
+        cores = plt.cm.Pastel1.colors
+
+        wedges, texts, autotexts = self.ax.pie(
+            total_categoria,
+            labels=total_categoria.index,
+            autopct='%1.1f%%',
+            startangle=140,
+            explode=explode,
+            colors=cores,
+            shadow=True,
+            textprops={'fontsize': 12, 'color': 'black'},
+            labeldistance=1.1,
+            pctdistance=0.75
+        )
+        self.ax.set_title('Distribuição por Categoria (Gráfico de Pizza)', fontsize=16)
+        self.ax.axis('equal')
+
+        plt.tight_layout()
+
+        self.canvas = FigureCanvasTkAgg(self.fig, master=self.container)
+        self.canvas.draw()
+        self.canvas.get_tk_widget().pack(fill='both', expand=True)
+
+    def mostrar_proximo_grafico(self):
+        self.grafico_atual = (self.grafico_atual + 1) % 2
+        if self.grafico_atual == 0:
+            self.exibir_grafico_barras()
+        else:
+            self.exibir_grafico_pizza()
+
+    def mostrar_grafico_anterior(self):
+        self.grafico_atual = (self.grafico_atual - 1) % 2
+        if self.grafico_atual == 0:
+            self.exibir_grafico_barras()
+        else:
+            self.exibir_grafico_pizza()
+
+
+def criar_botoes_principais(app, carregar_cmd, graficos_cmd, anomalias_cmd, dashboard_cmd, limpar_cmd):
+    frame_botoes = ctk.CTkFrame(app)
     frame_botoes.pack(pady=20)
 
-    btn_carregar = ctk.CTkButton(
-        frame_botoes, text='🔄 Carregar Log', command=carregar_cmd,
-        width=200, height=50, font=("Arial", 16), fg_color="#4CAF50"
-    )
-    btn_carregar.pack(pady=10)
+    ctk.CTkButton(frame_botoes, text='🔄 Carregar Log', command=carregar_cmd,
+                  width=200, height=50, font=("Arial", 16), fg_color="#4CAF50").pack(pady=10)
 
-    btn_graficos = ctk.CTkButton(
-        frame_botoes, text='📊 Exibir Gráficos', command=graficos_cmd,
-        width=200, height=50, font=("Arial", 16), fg_color="#2196F3"
-    )
-    btn_graficos.pack(pady=10)
+    ctk.CTkButton(frame_botoes, text='📊 Exibir Gráficos', command=graficos_cmd,
+                  width=200, height=50, font=("Arial", 16), fg_color="#2196F3").pack(pady=10)
 
-    btn_anomalias = ctk.CTkButton(
-        frame_botoes, text='⚠️ Detectar Anomalias', command=anomalias_cmd,
-        width=200, height=50, font=("Arial", 16), fg_color="#FF9800"
-    )
-    btn_anomalias.pack(pady=10)
+    ctk.CTkButton(frame_botoes, text='⚠️ Detectar Anomalias', command=anomalias_cmd,
+                  width=200, height=50, font=("Arial", 16), fg_color="#FF9800").pack(pady=10)
+
+    ctk.CTkButton(frame_botoes, text='📈 Dashboard', command=dashboard_cmd,
+                  width=200, height=50, font=("Arial", 16), fg_color="#9C27B0").pack(pady=10)
+
+    ctk.CTkButton(frame_botoes, text='🧹 Limpar Tela', command=limpar_cmd,
+                  width=200, height=50, font=("Arial", 16), fg_color="#9E9E9E").pack(pady=10)

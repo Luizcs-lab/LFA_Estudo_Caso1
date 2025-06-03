@@ -29,7 +29,6 @@ Este projeto tem como objetivo principal facilitar a análise de registros de ve
 📦 logallytics
 ├── App.py
 ├── README.md
-├── README_modelo_Mostra.md
 ├── requirements.txt
 ├── 📁 assets
 ├── 📁 data
@@ -93,7 +92,10 @@ python App.py
 
 | Nome              | GitHub                               |
 |-------------------|---------------------------------------|
-| Cesar [Seu Nome]  | [@seuusuario](https://github.com/seuusuario) |
+| Cesar Luiz da Silva  | [Luizcs-Lab]([https://github.com/Luizcs-lab/LFA_Estudo_Caso1]) |
+| Caio de Moura Camargo  | [Caio-Moura]([https://github.com/Caio-Moura/caso-de-uso]) |
+| Gabriele de Oliveira Antonio  | [Gabi160]([(https://github.com/Gabi160/LFA_Estudo_Caso1)]) |
+
 
 ---
 
@@ -111,7 +113,7 @@ python App.py
 
 - Universidade: **Universidade Braz Cubas**
 - Curso: **Análise e Desenvolvimento de Sistemas**
-- Semestre: **4º**
+- Semestre: **2º**
 - Período: **Noite**
 - Professora orientadora: **Dra. Andréa Ono Sakai**
 - Evento: **Mostra de Tecnologia 1º Semestre de 2025**
